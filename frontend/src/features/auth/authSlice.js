@@ -56,40 +56,55 @@ const authSlice = createSlice({
   },
   extraReducers: (builder) => {
     // Login
-    builder.addCase(loginThunk.pending, (s) => { s.loading = true; s.error = null; });
+    builder.addCase(loginThunk.pending, (s) => {
+      s.loading = true;
+      s.error = null;
+    });
     builder.addCase(loginThunk.fulfilled, (s, a) => {
       s.loading = false;
       s.user = a.payload.user;
       s.token = a.payload.token;
-      s.initialized = true; // ← key fix: mark initialized right after login
+      s.initialized = true;
       toast.success(`Welcome back, ${a.payload.user.name}!`);
     });
     builder.addCase(loginThunk.rejected, (s, a) => {
-      s.loading = false; s.error = a.payload;
+      s.loading = false;
+      s.error = a.payload;
       toast.error(a.payload);
     });
 
     // Register
-    builder.addCase(registerThunk.pending, (s) => { s.loading = true; s.error = null; });
+    builder.addCase(registerThunk.pending, (s) => {
+      s.loading = true;
+      s.error = null;
+    });
     builder.addCase(registerThunk.fulfilled, (s, a) => {
       s.loading = false;
       s.user = a.payload.user;
       s.token = a.payload.token;
-      s.initialized = true; // ← same fix for register
+      s.initialized = true;
       toast.success("Account created successfully!");
     });
     builder.addCase(registerThunk.rejected, (s, a) => {
-      s.loading = false; s.error = a.payload;
+      s.loading = false;
+      s.error = a.payload;
       toast.error(a.payload);
     });
 
     // Get Me
-    builder.addCase(getMeThunk.pending, (s) => { s.loading = true; });
+    builder.addCase(getMeThunk.pending, (s) => {
+      s.loading = true;
+    });
     builder.addCase(getMeThunk.fulfilled, (s, a) => {
-      s.loading = false; s.user = a.payload.user; s.initialized = true;
+      s.loading = false;
+      s.user = a.payload.user;
+      s.token = localStorage.getItem("token");
+      s.initialized = true;
     });
     builder.addCase(getMeThunk.rejected, (s) => {
-      s.loading = false; s.initialized = true; s.token = null;
+      s.loading = false;
+      s.initialized = true;
+      s.token = null;
       localStorage.removeItem("token");
     });
   },

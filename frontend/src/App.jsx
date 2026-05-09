@@ -8,16 +8,19 @@ import "./shared/styles/global.scss";
 
 const AppInit = () => {
   const dispatch = useDispatch();
-  const { token, initialized } = useSelector((s) => s.auth);
+  const localToken = localStorage.getItem("token"); // ← read localStorage directly
 
-  useEffect(() => {
-    if (token) {
-      dispatch(getMeThunk());
-    } else {
-      // No token — mark as initialized so Protected can redirect immediately
-      dispatch({ type: "auth/setInitialized" });
-    }
-  }, [token]);
+useEffect(() => {
+  const localToken = localStorage.getItem("token");
+  console.log("🚀 AppInit useEffect — localToken:", localToken);
+
+  if (localToken) {
+    dispatch(getMeThunk()).then((r) => console.log("✅ getMeThunk result:", r));
+  } else {
+    console.log("⚠️ No token — setInitialized");
+    dispatch({ type: "auth/setInitialized" });
+  }
+}, []);
 
   return <AppRoutes />;
 };
