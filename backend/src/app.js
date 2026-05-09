@@ -95,6 +95,9 @@ app.use("/api/emails",        emailRoutes);
 app.use("/api/notifications", notificationRoutes);
 app.use("/api/ai",            aiRoutes);
 
+// ─── Static: invoice attachments ─────────────────────────────────────────────
+app.use("/uploads/attachments", express.static("uploads/attachments"));
+
 app.get("/api/health", (_req, res) =>
   res.json({ status: "ok", ts: new Date().toISOString() })
 );

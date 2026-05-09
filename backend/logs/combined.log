@@ -498,3 +498,59 @@
 2026-05-10 03:16:37 [[32minfo[39m]: Socket QV7kWU7bEzq_AgEpAAAH subscribed to notifications for user 69ffa72a69f20c2be71ed0fc
 2026-05-10 03:16:37 [[32minfo[39m]: Socket QV7kWU7bEzq_AgEpAAAH joined room user_69ffa72a69f20c2be71ed0fc
 2026-05-10 03:16:37 [[32minfo[39m]: Socket QV7kWU7bEzq_AgEpAAAH subscribed to notifications for user 69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:11 [[32minfo[39m]: MongoDB connected: ac-jpxusaz-shard-00-01.mdp83mr.mongodb.net
+2026-05-10 03:20:11 [[32minfo[39m]: Cron jobs registered: daily follow-up @ 08:00, overdue sync every 6h
+2026-05-10 03:20:11 [[32minfo[39m]: Server running on http://localhost:3000 [development]
+2026-05-10 03:20:11 [[32minfo[39m]: Google OAuth endpoint: http://localhost:3000/api/auth/google
+2026-05-10 03:20:14 [[32minfo[39m]: Socket connected: dWEiMYLFt68RUI--AAAB
+2026-05-10 03:20:14 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB joined room user_69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:14 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB subscribed to notifications for user 69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:14 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB joined room user_69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:14 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB subscribed to notifications for user 69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:14 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB joined room user_69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:14 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB subscribed to notifications for user 69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:14 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB joined room user_69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:14 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB subscribed to notifications for user 69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:14 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB joined room user_69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:14 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB subscribed to notifications for user 69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:14 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB joined room user_69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:14 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB subscribed to notifications for user 69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:30 [[34mdebug[39m]: POST /api/auth/login
+2026-05-10 03:20:30 [[32minfo[39m]: User logged in: test2@test.com
+2026-05-10 03:20:30 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB joined room user_69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:30 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB subscribed to notifications for user 69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:30 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB joined room user_69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:30 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB subscribed to notifications for user 69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:30 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB joined room user_69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:30 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB subscribed to notifications for user 69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:30 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB joined room user_69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:30 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB subscribed to notifications for user 69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:30 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB joined room user_69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:30 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB subscribed to notifications for user 69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:30 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB joined room user_69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:30 [[32minfo[39m]: Socket dWEiMYLFt68RUI--AAAB subscribed to notifications for user 69ffa72a69f20c2be71ed0fc
+2026-05-10 03:20:30 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 03:20:30 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 03:20:30 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 03:20:31 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 03:20:31 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 03:20:31 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 03:23:13 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 03:23:13 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 03:23:17 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 03:23:18 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 03:23:19 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 03:23:19 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 03:23:23 [[34mdebug[39m]: GET /api/emails/logs
+2026-05-10 03:23:23 [[34mdebug[39m]: GET /api/emails/logs
+2026-05-10 03:23:24 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 03:23:24 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 03:23:25 [[34mdebug[39m]: GET /api/emails/logs
+2026-05-10 03:23:25 [[34mdebug[39m]: GET /api/emails/logs
+2026-05-10 03:23:26 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 03:23:26 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 03:43:32 [[32minfo[39m]: MongoDB connected: ac-jpxusaz-shard-00-02.mdp83mr.mongodb.net
+2026-05-10 03:43:32 [[32minfo[39m]: Cron jobs registered: daily follow-up @ 08:00, overdue sync every 6h
+2026-05-10 03:43:32 [[32minfo[39m]: Server running on http://localhost:3000 [development]
+2026-05-10 03:43:32 [[32minfo[39m]: Google OAuth endpoint: http://localhost:3000/api/auth/google
+2026-05-10 03:43:33 [[32minfo[39m]: Socket connected: TElGOiRKuySB9Q7GAAAB

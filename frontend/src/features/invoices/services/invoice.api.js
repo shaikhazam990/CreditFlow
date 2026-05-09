@@ -10,3 +10,9 @@ export const markPaid = (id) => api.patch(`/invoices/${id}/mark-paid`);
 export const uploadCSV = (formData) => api.post("/invoices/upload-csv", formData, {
   headers: { "Content-Type": "multipart/form-data" },
 });
+export const uploadAttachment = (id, formData) =>
+  api.post(`/invoices/${id}/attachments`, formData, {
+    headers: { "Content-Type": "multipart/form-data" },
+  });
+export const deleteAttachment = (id, filename) =>
+  api.delete(`/invoices/${id}/attachments/${filename}`);

@@ -176,6 +176,54 @@ const uploadCSV = async (req, res) => {
     });
 };
 
+// POST /api/invoices/:id/attachments
+const uploadAttachment = async (req, res) => {
+  try {
+    if (!req.file) return res.status(400).json({ success: false, message: "No file uploaded." });
+
+    const invoice = await Invoice.findById(req.params.id);
+    if (!invoice) return res.status(404).json({ success: false, message: "Invoice not found." });
+
+    const attachment = {
+      filename: req.file.filename,
+      originalName: req.file.originalname,
+      mimetype: req.file.mimetype,
+      size: req.file.size,
+      uploadedAt: new Date(),
+    };
+
+    invoice.attachments.push(attachment);
+    await invoice.save();
+
+    res.json({ success: true, attachment, invoice });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+};
+
+// DELETE /api/invoices/:id/attachments/:filename
+const deleteAttachment = async (req, res) => {
+  try {
+    const invoice = await Invoice.findById(req.params.id);
+    if (!invoice) return res.status(404).json({ success: false, message: "Invoice not found." });
+
+    const { filename } = req.params;
+    const idx = invoice.attachments.findIndex((a) => a.filename === filename);
+    if (idx === -1) return res.status(404).json({ success: false, message: "Attachment not found." });
+
+    // Remove file from disk
+    const filePath = `uploads/attachments/${filename}`;
+    try { if (fs.existsSync(filePath)) fs.unlinkSync(filePath); } catch (_) {}
+
+    invoice.attachments.splice(idx, 1);
+    await invoice.save();
+
+    res.json({ success: true, message: "Attachment deleted." });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+};
+
 // GET /api/invoices/stats/dashboard
 const getDashboard = async (req, res) => {
   try {
@@ -186,4 +234,4 @@ const getDashboard = async (req, res) => {
   }
 };
 
-module.exports = { getInvoices, getInvoice, createInvoice, updateInvoice, deleteInvoice, markPaid, uploadCSV, getDashboard };
+module.exports = { getInvoices, getInvoice, createInvoice, updateInvoice, deleteInvoice, markPaid, uploadCSV, getDashboard, uploadAttachment, deleteAttachment };
