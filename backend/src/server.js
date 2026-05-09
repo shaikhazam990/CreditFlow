@@ -11,6 +11,7 @@ const logger = require("./utils/logger");
 
 const PORT = process.env.PORT || 5000;
 
+
 const bootstrap = async () => {
   // 1. Connect to MongoDB
   await connectDB();
@@ -44,3 +45,7 @@ bootstrap().catch((err) => {
   logger.error(`Bootstrap failed: ${err.message}`);
   process.exit(1);
 });
+
+
+
+
