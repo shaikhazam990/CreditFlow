@@ -3,15 +3,20 @@ import { BrowserRouter } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import AppRoutes from "./app.routes";
 import useAuth from "./features/auth/hooks/useAuth";
+import { useDispatch } from "react-redux";
+import { getMeThunk } from "./features/auth/authSlice";
 import "./shared/styles/global.scss";
 
 const AppInit = () => {
-  const { fetchMe, token } = useAuth();
+  const { token } = useAuth();
+  const dispatch = useDispatch();
 
-  // On mount, if a token exists in localStorage, fetch the current user
   useEffect(() => {
-    if (token) fetchMe();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    if (token) {
+      dispatch(getMeThunk());
+    }
+    // If no token, Protected will redirect to /login immediately
+    // No need to set initialized — Protected checks token first
   }, []);
 
   return <AppRoutes />;

@@ -9,7 +9,7 @@ const { registerNotificationSocketEvents } = require("./socket/notification.sock
 const { startCronJobs } = require("./services/cron.service");
 const logger = require("./utils/logger");
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 
 const bootstrap = async () => {
