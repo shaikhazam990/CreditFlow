@@ -2,3 +2,41 @@
 2026-05-10 01:18:46 [[32minfo[39m]: Cron jobs registered: daily follow-up @ 08:00, overdue sync every 6h
 2026-05-10 01:18:46 [[32minfo[39m]: Server running on http://localhost:3000 [development]
 2026-05-10 01:18:46 [[32minfo[39m]: Google OAuth endpoint: http://localhost:3000/api/auth/google
+2026-05-10 02:14:40 [[32minfo[39m]: MongoDB connected: ac-jpxusaz-shard-00-00.mdp83mr.mongodb.net
+2026-05-10 02:14:40 [[32minfo[39m]: Cron jobs registered: daily follow-up @ 08:00, overdue sync every 6h
+2026-05-10 02:14:40 [[32minfo[39m]: Server running on http://localhost:3000 [development]
+2026-05-10 02:14:40 [[32minfo[39m]: Google OAuth endpoint: http://localhost:3000/api/auth/google
+2026-05-10 02:17:21 [[32minfo[39m]: MongoDB connected: ac-jpxusaz-shard-00-00.mdp83mr.mongodb.net
+2026-05-10 02:17:21 [[32minfo[39m]: Cron jobs registered: daily follow-up @ 08:00, overdue sync every 6h
+2026-05-10 02:17:21 [[32minfo[39m]: Server running on http://localhost:3000 [development]
+2026-05-10 02:17:21 [[32minfo[39m]: Google OAuth endpoint: http://localhost:3000/api/auth/google
+2026-05-10 02:21:16 [[32minfo[39m]: MongoDB connected: ac-jpxusaz-shard-00-02.mdp83mr.mongodb.net
+2026-05-10 02:21:16 [[32minfo[39m]: Cron jobs registered: daily follow-up @ 08:00, overdue sync every 6h
+2026-05-10 02:21:16 [[32minfo[39m]: Server running on http://localhost:3000 [development]
+2026-05-10 02:21:16 [[32minfo[39m]: Google OAuth endpoint: http://localhost:3000/api/auth/google
+2026-05-10 02:21:56 [[32minfo[39m]: MongoDB connected: ac-jpxusaz-shard-00-02.mdp83mr.mongodb.net
+2026-05-10 02:21:56 [[32minfo[39m]: Cron jobs registered: daily follow-up @ 08:00, overdue sync every 6h
+2026-05-10 02:21:56 [[32minfo[39m]: Server running on http://localhost:3000 [development]
+2026-05-10 02:21:56 [[32minfo[39m]: Google OAuth endpoint: http://localhost:3000/api/auth/google
+2026-05-10 02:26:56 [[32minfo[39m]: MongoDB connected: ac-jpxusaz-shard-00-00.mdp83mr.mongodb.net
+2026-05-10 02:26:56 [[32minfo[39m]: Cron jobs registered: daily follow-up @ 08:00, overdue sync every 6h
+2026-05-10 02:26:56 [[32minfo[39m]: Server running on http://localhost:3000 [development]
+2026-05-10 02:26:56 [[32minfo[39m]: Google OAuth endpoint: http://localhost:3000/api/auth/google
+2026-05-10 02:29:45 [[32minfo[39m]: MongoDB connected: ac-jpxusaz-shard-00-00.mdp83mr.mongodb.net
+2026-05-10 02:29:45 [[32minfo[39m]: Cron jobs registered: daily follow-up @ 08:00, overdue sync every 6h
+2026-05-10 02:29:45 [[32minfo[39m]: Server running on http://localhost:3000 [development]
+2026-05-10 02:29:45 [[32minfo[39m]: Google OAuth endpoint: http://localhost:3000/api/auth/google
+2026-05-10 02:31:20 [[32minfo[39m]: MongoDB connected: ac-jpxusaz-shard-00-01.mdp83mr.mongodb.net
+2026-05-10 02:31:20 [[32minfo[39m]: Cron jobs registered: daily follow-up @ 08:00, overdue sync every 6h
+2026-05-10 02:31:20 [[32minfo[39m]: Server running on http://localhost:3000 [development]
+2026-05-10 02:31:20 [[32minfo[39m]: Google OAuth endpoint: http://localhost:3000/api/auth/google
+2026-05-10 02:34:18 [[32minfo[39m]: MongoDB connected: ac-jpxusaz-shard-00-02.mdp83mr.mongodb.net
+2026-05-10 02:34:41 [[32minfo[39m]: MongoDB connected: ac-jpxusaz-shard-00-01.mdp83mr.mongodb.net
+2026-05-10 02:35:33 [[32minfo[39m]: MongoDB connected: ac-jpxusaz-shard-00-01.mdp83mr.mongodb.net
+2026-05-10 02:35:33 [[32minfo[39m]: Cron jobs registered: daily follow-up @ 08:00, overdue sync every 6h
+2026-05-10 02:35:33 [[32minfo[39m]: Server running on http://localhost:3000 [development]
+2026-05-10 02:35:33 [[32minfo[39m]: Google OAuth endpoint: http://localhost:3000/api/auth/google
+2026-05-10 02:39:09 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 02:39:24 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 02:39:24 [[32minfo[39m]: New Google user registered: mrsimens72@gmail.com
+2026-05-10 02:39:25 [[32minfo[39m]: Google OAuth login: mrsimens72@gmail.com
