@@ -2,22 +2,22 @@ import { useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import AppRoutes from "./app.routes";
-import useAuth from "./features/auth/hooks/useAuth";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { getMeThunk } from "./features/auth/authSlice";
 import "./shared/styles/global.scss";
 
 const AppInit = () => {
-  const { token } = useAuth();
   const dispatch = useDispatch();
+  const { token, initialized } = useSelector((s) => s.auth);
 
   useEffect(() => {
     if (token) {
       dispatch(getMeThunk());
+    } else {
+      // No token — mark as initialized so Protected can redirect immediately
+      dispatch({ type: "auth/setInitialized" });
     }
-    // If no token, Protected will redirect to /login immediately
-    // No need to set initialized — Protected checks token first
-  }, []);
+  }, [token]);
 
   return <AppRoutes />;
 };

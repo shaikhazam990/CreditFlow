@@ -2,7 +2,6 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import * as authApi from "./services/auth.api";
 import toast from "react-hot-toast";
 
-// ─── Thunks ──────────────────────────────────────────────────────────────────
 export const loginThunk = createAsyncThunk("auth/login", async (creds, { rejectWithValue }) => {
   try {
     const { data } = await authApi.login(creds);
@@ -32,7 +31,6 @@ export const getMeThunk = createAsyncThunk("auth/getMe", async (_, { rejectWithV
   }
 });
 
-// ─── Slice ───────────────────────────────────────────────────────────────────
 const authSlice = createSlice({
   name: "auth",
   initialState: {
@@ -46,17 +44,24 @@ const authSlice = createSlice({
     logout(state) {
       state.user = null;
       state.token = null;
+      state.initialized = false;
       localStorage.removeItem("token");
     },
     clearError(state) {
       state.error = null;
+    },
+    setInitialized(state) {
+      state.initialized = true;
     },
   },
   extraReducers: (builder) => {
     // Login
     builder.addCase(loginThunk.pending, (s) => { s.loading = true; s.error = null; });
     builder.addCase(loginThunk.fulfilled, (s, a) => {
-      s.loading = false; s.user = a.payload.user; s.token = a.payload.token;
+      s.loading = false;
+      s.user = a.payload.user;
+      s.token = a.payload.token;
+      s.initialized = true; // ← key fix: mark initialized right after login
       toast.success(`Welcome back, ${a.payload.user.name}!`);
     });
     builder.addCase(loginThunk.rejected, (s, a) => {
@@ -67,7 +72,10 @@ const authSlice = createSlice({
     // Register
     builder.addCase(registerThunk.pending, (s) => { s.loading = true; s.error = null; });
     builder.addCase(registerThunk.fulfilled, (s, a) => {
-      s.loading = false; s.user = a.payload.user; s.token = a.payload.token;
+      s.loading = false;
+      s.user = a.payload.user;
+      s.token = a.payload.token;
+      s.initialized = true; // ← same fix for register
       toast.success("Account created successfully!");
     });
     builder.addCase(registerThunk.rejected, (s, a) => {
@@ -87,5 +95,5 @@ const authSlice = createSlice({
   },
 });
 
-export const { logout, clearError } = authSlice.actions;
+export const { logout, clearError, setInitialized } = authSlice.actions;
 export default authSlice.reducer;

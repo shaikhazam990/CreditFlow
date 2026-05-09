@@ -76,17 +76,30 @@ const Invoices = () => {
           <h1 className="page__title">Invoices</h1>
           <p className="page__subtitle">{total} invoice{total !== 1 ? "s" : ""} total</p>
         </div>
-        {isAdmin && (
-          <div style={{ display: "flex", gap: "var(--space-3)" }}>
-            <label className="btn btn--secondary btn--sm" style={{ cursor: "pointer" }}>
-              Import CSV
-              <input type="file" accept=".csv" style={{ display: "none" }} onChange={handleCSV} />
-            </label>
-            <button className="btn btn--primary btn--sm" onClick={() => setModalOpen(true)}>
-              + New Invoice
-            </button>
-          </div>
-        )}
+        <div style={{ display: "flex", gap: "var(--space-3)", alignItems: "center" }}>
+          {!isAdmin && (
+            <span style={{ fontSize: "var(--text-xs)", color: "var(--color-text-muted)", padding: "var(--space-1) var(--space-2)", border: "1px solid var(--color-border)", borderRadius: "var(--radius-md)" }}>
+              👤 Viewer mode — admin required to create
+            </span>
+          )}
+          <label
+            className={`btn btn--secondary btn--sm ${!isAdmin ? "btn--disabled" : ""}`}
+            style={{ cursor: isAdmin ? "pointer" : "not-allowed", opacity: isAdmin ? 1 : 0.45 }}
+            title={isAdmin ? "Import invoices from CSV" : "Admin only"}
+          >
+            ⬆ Import CSV
+            <input type="file" accept=".csv" style={{ display: "none" }} onChange={isAdmin ? handleCSV : undefined} disabled={!isAdmin} />
+          </label>
+          <button
+            className="btn btn--primary btn--sm"
+            onClick={() => isAdmin && setModalOpen(true)}
+            disabled={!isAdmin}
+            title={isAdmin ? "Create new invoice" : "Admin only"}
+            style={{ opacity: isAdmin ? 1 : 0.45, cursor: isAdmin ? "pointer" : "not-allowed" }}
+          >
+            + New Invoice
+          </button>
+        </div>
       </div>
 
       {/* Filters */}
