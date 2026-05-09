@@ -874,3 +874,41 @@
 2026-05-10 03:55:14 [[34mdebug[39m]: GET /api/invoices
 2026-05-10 03:55:14 [[34mdebug[39m]: GET /api/invoices
 2026-05-10 03:55:18 [[32minfo[39m]: Socket disconnected: LF4FAKRM5mwZ3IDeAAAD
+2026-05-10 04:00:41 [[32minfo[39m]: MongoDB connected: ac-jpxusaz-shard-00-00.mdp83mr.mongodb.net
+2026-05-10 04:00:41 [[32minfo[39m]: Cron jobs registered: daily follow-up @ 08:00, overdue sync every 6h
+2026-05-10 04:00:41 [[32minfo[39m]: Server running on http://localhost:3000 [development]
+2026-05-10 04:00:41 [[32minfo[39m]: Google OAuth endpoint: http://localhost:3000/api/auth/google
+2026-05-10 04:00:47 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 04:00:55 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 04:00:56 [[32minfo[39m]: Google OAuth login: mrsimens72@gmail.com
+2026-05-10 04:00:56 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:00:58 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 04:01:02 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 04:01:03 [[32minfo[39m]: Google OAuth login: mrsimens72@gmail.com
+2026-05-10 04:01:03 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:01:03 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:01:03 [[32minfo[39m]: Socket connected: dxCTo9uk6DeAwbQyAAAB
+2026-05-10 04:01:03 [[32minfo[39m]: Socket dxCTo9uk6DeAwbQyAAAB joined room user_69ffa284442947473f3c7184
+2026-05-10 04:01:03 [[32minfo[39m]: Socket dxCTo9uk6DeAwbQyAAAB subscribed to notifications for user 69ffa284442947473f3c7184
+2026-05-10 04:01:03 [[32minfo[39m]: Socket dxCTo9uk6DeAwbQyAAAB joined room user_69ffa284442947473f3c7184
+2026-05-10 04:01:03 [[32minfo[39m]: Socket dxCTo9uk6DeAwbQyAAAB subscribed to notifications for user 69ffa284442947473f3c7184
+2026-05-10 04:01:03 [[32minfo[39m]: Socket dxCTo9uk6DeAwbQyAAAB joined room user_69ffa284442947473f3c7184
+2026-05-10 04:01:03 [[32minfo[39m]: Socket dxCTo9uk6DeAwbQyAAAB subscribed to notifications for user 69ffa284442947473f3c7184
+2026-05-10 04:01:03 [[32minfo[39m]: Socket dxCTo9uk6DeAwbQyAAAB joined room user_69ffa284442947473f3c7184
+2026-05-10 04:01:03 [[32minfo[39m]: Socket dxCTo9uk6DeAwbQyAAAB subscribed to notifications for user 69ffa284442947473f3c7184
+2026-05-10 04:01:03 [[32minfo[39m]: Socket dxCTo9uk6DeAwbQyAAAB joined room user_69ffa284442947473f3c7184
+2026-05-10 04:01:03 [[32minfo[39m]: Socket dxCTo9uk6DeAwbQyAAAB subscribed to notifications for user 69ffa284442947473f3c7184
+2026-05-10 04:01:03 [[32minfo[39m]: Socket dxCTo9uk6DeAwbQyAAAB joined room user_69ffa284442947473f3c7184
+2026-05-10 04:01:03 [[32minfo[39m]: Socket dxCTo9uk6DeAwbQyAAAB subscribed to notifications for user 69ffa284442947473f3c7184
+2026-05-10 04:01:03 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:01:03 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 04:01:03 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 04:01:03 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 04:01:03 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 04:01:03 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 04:01:03 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 04:09:06 [[32minfo[39m]: MongoDB connected: ac-jpxusaz-shard-00-00.mdp83mr.mongodb.net
+2026-05-10 04:09:06 [[32minfo[39m]: Cron jobs registered: daily follow-up @ 08:00, overdue sync every 6h
+2026-05-10 04:09:06 [[32minfo[39m]: Server running on http://localhost:3000 [development]
+2026-05-10 04:09:06 [[32minfo[39m]: Google OAuth endpoint: http://localhost:3000/api/auth/google
+2026-05-10 04:09:08 [[32minfo[39m]: Socket connected: EdUywU3xkSxPDpNdAAAB
