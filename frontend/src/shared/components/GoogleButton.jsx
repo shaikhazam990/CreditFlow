@@ -13,7 +13,7 @@
 const GoogleButton = ({ label = "Continue with Google", disabled = false }) => {
   const handleClick = () => {
     // Redirect the full browser window to the backend OAuth entry point
-    const apiBase = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+    const apiBase = import.meta.env.VITE_API_URL || "http://localhost:3000/api";
     // Strip trailing /api if present, we need the server root
     const serverRoot = apiBase.replace(/\/api\/?$/, "");
     window.location.href = `${serverRoot}/api/auth/google`;

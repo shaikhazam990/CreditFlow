@@ -8,16 +8,16 @@ import "./shared/styles/global.scss";
 
 const AppInit = () => {
   const dispatch = useDispatch();
-  const localToken = localStorage.getItem("token"); // ← read localStorage directly
+  const localToken = localStorage.getItem("token");
 
 useEffect(() => {
   const localToken = localStorage.getItem("token");
   console.log("🚀 AppInit useEffect — localToken:", localToken);
 
   if (localToken) {
-    dispatch(getMeThunk()).then((r) => console.log("✅ getMeThunk result:", r));
+    dispatch(getMeThunk()).then((r) => console.log("getMeThunk result:", r));
   } else {
-    console.log("⚠️ No token — setInitialized");
+    console.log(" No token — setInitialized");
     dispatch({ type: "auth/setInitialized" });
   }
 }, []);

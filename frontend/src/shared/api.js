@@ -22,8 +22,11 @@ api.interceptors.response.use(
     const message = err.response?.data?.message || "Something went wrong.";
 
     if (status === 401) {
+      console.log("🚨 401 on:", err.config.url);
       localStorage.removeItem("token");
-      if (!window.location.pathname.includes("/login")) {
+      // ← Don't redirect if we're already on login or oauth/callback
+      const path = window.location.pathname;
+      if (!path.includes("/login") && !path.includes("/oauth/callback")) {
         window.location.href = "/login";
       }
     } else if (status === 403) {

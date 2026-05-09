@@ -35,20 +35,13 @@ const OAuthCallback = () => {
     }
 
     localStorage.setItem("token", token);
-    window.history.replaceState(null, "", "/oauth/callback");
+window.history.replaceState(null, "", "/oauth/callback");
+
+// Let AppInit handle getMeThunk fresh on reload
+window.location.href = "/dashboard";
 
     // ← Dispatch getMeThunk and WAIT for it to finish before navigating
-    dispatch(getMeThunk()).then((result) => {
-      if (result.error) {
-        localStorage.removeItem("token");
-        setError("Failed to load your profile. Please try again.");
-        setTimeout(() => navigate("/login"), 3000);
-      } else {
-        // token + user + initialized are all set in Redux NOW — safe to navigate
-        navigate("/dashboard", { replace: true });
-      }
-    });
-  }, []);
+
 
   if (error) {
     return (

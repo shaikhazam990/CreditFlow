@@ -48,7 +48,7 @@ app.use(
   "/api/auth",
   rateLimit({
     windowMs: 15 * 60 * 1000,
-    max: 30, // slightly higher to allow OAuth redirect chains
+    max: 200, // slightly higher to allow OAuth redirect chains
     message: { success: false, message: "Too many auth attempts." },
   })
 );

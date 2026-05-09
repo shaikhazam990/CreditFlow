@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, Navigate } from "react-router-dom";
+import { useSelector } from "react-redux";
 import useAuth from "../hooks/useAuth";
 import GoogleButton from "../../../shared/components/GoogleButton";
 import "../style/auth.scss";
@@ -9,8 +10,11 @@ const Login = () => {
   const { handleLogin, loading } = useAuth();
   const [form, setForm] = useState({ email: "", password: "" });
   const location = useLocation();
+  const { token, initialized } = useSelector((s) => s.auth);
 
-  // Show error toast if redirected back from a failed OAuth attempt
+  // ← If already logged in, redirect to dashboard
+  if (initialized && token) return <Navigate to="/dashboard" replace />;
+
   useEffect(() => {
     const params = new URLSearchParams(location.search);
     const err = params.get("error");
@@ -37,12 +41,10 @@ const Login = () => {
         <h1 className="auth-heading">Sign in</h1>
         <p className="auth-subheading">Finance credit follow-up dashboard</p>
 
-        {/* Google OAuth button */}
         <div style={{ marginBottom: "var(--space-5)" }}>
           <GoogleButton label="Continue with Google" />
         </div>
 
-        {/* Divider */}
         <div style={{ display: "flex", alignItems: "center", gap: "var(--space-3)", marginBottom: "var(--space-5)" }}>
           <div style={{ flex: 1, height: 1, background: "var(--color-border)" }} />
           <span style={{ fontSize: "var(--text-xs)", color: "var(--color-text-muted)" }}>or continue with email</span>
@@ -53,39 +55,23 @@ const Login = () => {
           <div className="form-group">
             <label className="form-label" htmlFor="email">Email address</label>
             <input
-              id="email"
-              className="form-input"
-              type="email"
-              name="email"
-              placeholder="you@company.com"
-              value={form.email}
-              onChange={onChange}
-              required
-              autoComplete="email"
+              id="email" className="form-input" type="email" name="email"
+              placeholder="you@company.com" value={form.email}
+              onChange={onChange} required autoComplete="email"
             />
           </div>
 
           <div className="form-group">
             <label className="form-label" htmlFor="password">Password</label>
             <input
-              id="password"
-              className="form-input"
-              type="password"
-              name="password"
-              placeholder="••••••••"
-              value={form.password}
-              onChange={onChange}
-              required
-              autoComplete="current-password"
+              id="password" className="form-input" type="password" name="password"
+              placeholder="••••••••" value={form.password}
+              onChange={onChange} required autoComplete="current-password"
             />
           </div>
 
-          <button
-            className="btn btn--primary btn--lg"
-            type="submit"
-            disabled={loading}
-            style={{ marginTop: "var(--space-2)" }}
-          >
+          <button className="btn btn--primary btn--lg" type="submit"
+            disabled={loading} style={{ marginTop: "var(--space-2)" }}>
             {loading ? "Signing in…" : "Sign in"}
           </button>
         </form>

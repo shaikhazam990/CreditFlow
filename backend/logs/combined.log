@@ -1376,3 +1376,621 @@
 2026-05-10 04:39:12 [[34mdebug[39m]: GET /api/emails/logs
 2026-05-10 04:39:13 [[34mdebug[39m]: GET /api/emails/logs
 2026-05-10 04:40:27 [[32minfo[39m]: Socket disconnected: uNLXdAWJvnHVfw7EAAAD
+2026-05-10 04:43:16 [[32minfo[39m]: Socket disconnected: 0jAZkm5bwRcJTy0zAAAB
+2026-05-10 04:43:16 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:43:16 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:43:19 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 04:43:23 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 04:43:24 [[32minfo[39m]: Google OAuth login: mrsimens72@gmail.com
+2026-05-10 04:43:24 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:43:24 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:43:24 [[32minfo[39m]: Socket connected: 76CBcz3ZtYP0zOlQAAAF
+2026-05-10 04:43:24 [[32minfo[39m]: Socket 76CBcz3ZtYP0zOlQAAAF joined room user_69ffa284442947473f3c7184
+2026-05-10 04:43:24 [[32minfo[39m]: Socket 76CBcz3ZtYP0zOlQAAAF subscribed to notifications for user 69ffa284442947473f3c7184
+2026-05-10 04:43:24 [[32minfo[39m]: Socket 76CBcz3ZtYP0zOlQAAAF joined room user_69ffa284442947473f3c7184
+2026-05-10 04:43:24 [[32minfo[39m]: Socket 76CBcz3ZtYP0zOlQAAAF subscribed to notifications for user 69ffa284442947473f3c7184
+2026-05-10 04:43:24 [[32minfo[39m]: Socket 76CBcz3ZtYP0zOlQAAAF joined room user_69ffa284442947473f3c7184
+2026-05-10 04:43:24 [[32minfo[39m]: Socket 76CBcz3ZtYP0zOlQAAAF subscribed to notifications for user 69ffa284442947473f3c7184
+2026-05-10 04:43:24 [[32minfo[39m]: Socket 76CBcz3ZtYP0zOlQAAAF joined room user_69ffa284442947473f3c7184
+2026-05-10 04:43:24 [[32minfo[39m]: Socket 76CBcz3ZtYP0zOlQAAAF subscribed to notifications for user 69ffa284442947473f3c7184
+2026-05-10 04:43:24 [[32minfo[39m]: Socket 76CBcz3ZtYP0zOlQAAAF joined room user_69ffa284442947473f3c7184
+2026-05-10 04:43:24 [[32minfo[39m]: Socket 76CBcz3ZtYP0zOlQAAAF subscribed to notifications for user 69ffa284442947473f3c7184
+2026-05-10 04:43:24 [[32minfo[39m]: Socket 76CBcz3ZtYP0zOlQAAAF joined room user_69ffa284442947473f3c7184
+2026-05-10 04:43:24 [[32minfo[39m]: Socket 76CBcz3ZtYP0zOlQAAAF subscribed to notifications for user 69ffa284442947473f3c7184
+2026-05-10 04:43:24 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 04:43:24 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 04:43:24 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 04:43:24 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:43:24 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 04:43:24 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 04:43:24 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 04:43:32 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 04:43:32 [[32minfo[39m]: Socket disconnected: 76CBcz3ZtYP0zOlQAAAF
+2026-05-10 04:43:48 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:43:48 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:43:49 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:43:49 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:43:51 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 04:43:54 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 04:43:55 [[32minfo[39m]: New Google user registered: mohdyounus8208@gmail.com
+2026-05-10 04:43:55 [[32minfo[39m]: Google OAuth login: mohdyounus8208@gmail.com
+2026-05-10 04:43:55 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:43:55 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:43:55 [[32minfo[39m]: Socket connected: yW7zfqiNPtRMO5kYAAAH
+2026-05-10 04:43:55 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 04:43:55 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 04:43:55 [[32minfo[39m]: Socket yW7zfqiNPtRMO5kYAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:43:55 [[32minfo[39m]: Socket yW7zfqiNPtRMO5kYAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:43:55 [[32minfo[39m]: Socket yW7zfqiNPtRMO5kYAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:43:55 [[32minfo[39m]: Socket yW7zfqiNPtRMO5kYAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:43:55 [[32minfo[39m]: Socket yW7zfqiNPtRMO5kYAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:43:55 [[32minfo[39m]: Socket yW7zfqiNPtRMO5kYAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:43:55 [[32minfo[39m]: Socket yW7zfqiNPtRMO5kYAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:43:55 [[32minfo[39m]: Socket yW7zfqiNPtRMO5kYAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:43:55 [[32minfo[39m]: Socket yW7zfqiNPtRMO5kYAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:43:55 [[32minfo[39m]: Socket yW7zfqiNPtRMO5kYAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:43:55 [[32minfo[39m]: Socket yW7zfqiNPtRMO5kYAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:43:55 [[32minfo[39m]: Socket yW7zfqiNPtRMO5kYAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:43:55 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 04:43:55 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:43:55 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 04:43:55 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 04:43:55 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 04:47:16 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 04:47:16 [[32minfo[39m]: Socket disconnected: yW7zfqiNPtRMO5kYAAAH
+2026-05-10 04:47:23 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 04:47:24 [[32minfo[39m]: Google OAuth login: mohdyounus8208@gmail.com
+2026-05-10 04:47:24 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:47:24 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:47:24 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:47:24 [[32minfo[39m]: Socket connected: UKgtTIxPblr4cSpAAAAJ
+2026-05-10 04:47:24 [[32minfo[39m]: Socket UKgtTIxPblr4cSpAAAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:47:24 [[32minfo[39m]: Socket UKgtTIxPblr4cSpAAAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:47:24 [[32minfo[39m]: Socket UKgtTIxPblr4cSpAAAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:47:24 [[32minfo[39m]: Socket UKgtTIxPblr4cSpAAAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:47:24 [[32minfo[39m]: Socket UKgtTIxPblr4cSpAAAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:47:24 [[32minfo[39m]: Socket UKgtTIxPblr4cSpAAAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:47:24 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 04:47:24 [[32minfo[39m]: Socket UKgtTIxPblr4cSpAAAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:47:24 [[32minfo[39m]: Socket UKgtTIxPblr4cSpAAAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:47:24 [[32minfo[39m]: Socket UKgtTIxPblr4cSpAAAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:47:24 [[32minfo[39m]: Socket UKgtTIxPblr4cSpAAAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:47:24 [[32minfo[39m]: Socket UKgtTIxPblr4cSpAAAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:47:24 [[32minfo[39m]: Socket UKgtTIxPblr4cSpAAAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:47:24 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 04:47:24 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 04:47:24 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 04:47:24 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 04:47:24 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 04:47:30 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 04:47:31 [[32minfo[39m]: Socket disconnected: UKgtTIxPblr4cSpAAAAJ
+2026-05-10 04:47:34 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 04:47:34 [[32minfo[39m]: Google OAuth login: mohdyounus8208@gmail.com
+2026-05-10 04:47:34 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:47:34 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:47:34 [[32minfo[39m]: Socket connected: BpF5uT6vSy7nDh8FAAAL
+2026-05-10 04:47:34 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 04:47:34 [[32minfo[39m]: Socket BpF5uT6vSy7nDh8FAAAL joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:47:34 [[32minfo[39m]: Socket BpF5uT6vSy7nDh8FAAAL subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:47:34 [[32minfo[39m]: Socket BpF5uT6vSy7nDh8FAAAL joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:47:34 [[32minfo[39m]: Socket BpF5uT6vSy7nDh8FAAAL subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:47:34 [[32minfo[39m]: Socket BpF5uT6vSy7nDh8FAAAL joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:47:34 [[32minfo[39m]: Socket BpF5uT6vSy7nDh8FAAAL subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:47:34 [[32minfo[39m]: Socket BpF5uT6vSy7nDh8FAAAL joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:47:34 [[32minfo[39m]: Socket BpF5uT6vSy7nDh8FAAAL subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:47:34 [[32minfo[39m]: Socket BpF5uT6vSy7nDh8FAAAL joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:47:34 [[32minfo[39m]: Socket BpF5uT6vSy7nDh8FAAAL subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:47:34 [[32minfo[39m]: Socket BpF5uT6vSy7nDh8FAAAL joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:47:34 [[32minfo[39m]: Socket BpF5uT6vSy7nDh8FAAAL subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:47:34 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:47:34 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 04:47:34 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 04:47:34 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 04:47:34 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 04:47:35 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 04:48:14 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 04:48:14 [[32minfo[39m]: Socket disconnected: BpF5uT6vSy7nDh8FAAAL
+2026-05-10 04:48:22 [[34mdebug[39m]: GET /.well-known/appspecific/com.chrome.devtools.json
+2026-05-10 04:48:44 [[32minfo[39m]: MongoDB connected: ac-jpxusaz-shard-00-00.mdp83mr.mongodb.net
+2026-05-10 04:48:44 [[32minfo[39m]: Cron jobs registered: daily follow-up @ 08:00, overdue sync every 6h
+2026-05-10 04:48:44 [[32minfo[39m]: Server running on http://localhost:3000 [development]
+2026-05-10 04:48:44 [[32minfo[39m]: Google OAuth endpoint: http://localhost:3000/api/auth/google
+2026-05-10 04:48:49 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 04:48:49 [[32minfo[39m]: Google OAuth login: mohdyounus8208@gmail.com
+2026-05-10 04:48:50 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:48:50 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:48:50 [[32minfo[39m]: Socket connected: 27ZOWicnTeVytF1EAAAB
+2026-05-10 04:48:50 [[32minfo[39m]: Socket 27ZOWicnTeVytF1EAAAB joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:48:50 [[32minfo[39m]: Socket 27ZOWicnTeVytF1EAAAB subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:48:50 [[32minfo[39m]: Socket 27ZOWicnTeVytF1EAAAB joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:48:50 [[32minfo[39m]: Socket 27ZOWicnTeVytF1EAAAB subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:48:50 [[32minfo[39m]: Socket 27ZOWicnTeVytF1EAAAB joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:48:50 [[32minfo[39m]: Socket 27ZOWicnTeVytF1EAAAB subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:48:50 [[32minfo[39m]: Socket 27ZOWicnTeVytF1EAAAB joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:48:50 [[32minfo[39m]: Socket 27ZOWicnTeVytF1EAAAB subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:48:50 [[32minfo[39m]: Socket 27ZOWicnTeVytF1EAAAB joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:48:50 [[32minfo[39m]: Socket 27ZOWicnTeVytF1EAAAB subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:48:50 [[32minfo[39m]: Socket 27ZOWicnTeVytF1EAAAB joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:48:50 [[32minfo[39m]: Socket 27ZOWicnTeVytF1EAAAB subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:48:50 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 04:48:50 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 04:48:50 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 04:48:50 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:48:50 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 04:48:50 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 04:48:50 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 04:55:31 [[32minfo[39m]: Socket disconnected: 27ZOWicnTeVytF1EAAAB
+2026-05-10 04:55:32 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:55:32 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:55:33 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 04:55:38 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 04:55:38 [[32minfo[39m]: Google OAuth login: mohdyounus8208@gmail.com
+2026-05-10 04:55:39 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:55:39 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:55:39 [[32minfo[39m]: Socket connected: iyDXiZz-kk95ijldAAAD
+2026-05-10 04:55:39 [[32minfo[39m]: Socket iyDXiZz-kk95ijldAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:55:39 [[32minfo[39m]: Socket iyDXiZz-kk95ijldAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:55:39 [[32minfo[39m]: Socket iyDXiZz-kk95ijldAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:55:39 [[32minfo[39m]: Socket iyDXiZz-kk95ijldAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:55:39 [[32minfo[39m]: Socket iyDXiZz-kk95ijldAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:55:39 [[32minfo[39m]: Socket iyDXiZz-kk95ijldAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:55:39 [[32minfo[39m]: Socket iyDXiZz-kk95ijldAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:55:39 [[32minfo[39m]: Socket iyDXiZz-kk95ijldAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:55:39 [[32minfo[39m]: Socket iyDXiZz-kk95ijldAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:55:39 [[32minfo[39m]: Socket iyDXiZz-kk95ijldAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:55:39 [[32minfo[39m]: Socket iyDXiZz-kk95ijldAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:55:39 [[32minfo[39m]: Socket iyDXiZz-kk95ijldAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:55:39 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:55:39 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 04:55:39 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 04:55:39 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 04:55:39 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 04:55:42 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 04:55:42 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 04:56:00 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 04:56:00 [[32minfo[39m]: Socket disconnected: iyDXiZz-kk95ijldAAAD
+2026-05-10 04:56:04 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 04:56:04 [[32minfo[39m]: Google OAuth login: mohdyounus8208@gmail.com
+2026-05-10 04:56:04 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:56:04 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:56:04 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:56:04 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 04:56:04 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 04:56:04 [[32minfo[39m]: Socket connected: 6u5u_TqnUJAdovX2AAAF
+2026-05-10 04:56:04 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 04:56:04 [[32minfo[39m]: Socket 6u5u_TqnUJAdovX2AAAF joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:56:04 [[32minfo[39m]: Socket 6u5u_TqnUJAdovX2AAAF subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:56:04 [[32minfo[39m]: Socket 6u5u_TqnUJAdovX2AAAF joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:56:04 [[32minfo[39m]: Socket 6u5u_TqnUJAdovX2AAAF subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:56:04 [[32minfo[39m]: Socket 6u5u_TqnUJAdovX2AAAF joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:56:04 [[32minfo[39m]: Socket 6u5u_TqnUJAdovX2AAAF subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:56:04 [[32minfo[39m]: Socket 6u5u_TqnUJAdovX2AAAF joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:56:04 [[32minfo[39m]: Socket 6u5u_TqnUJAdovX2AAAF subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:56:04 [[32minfo[39m]: Socket 6u5u_TqnUJAdovX2AAAF joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:56:04 [[32minfo[39m]: Socket 6u5u_TqnUJAdovX2AAAF subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:56:04 [[32minfo[39m]: Socket 6u5u_TqnUJAdovX2AAAF joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:56:04 [[32minfo[39m]: Socket 6u5u_TqnUJAdovX2AAAF subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:56:04 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 04:56:04 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 04:56:05 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 04:56:41 [[32minfo[39m]: Socket disconnected: 6u5u_TqnUJAdovX2AAAF
+2026-05-10 04:56:41 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:56:42 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:56:43 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 04:56:46 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 04:56:47 [[32minfo[39m]: Google OAuth login: mohdyounus8208@gmail.com
+2026-05-10 04:56:47 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:56:47 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:56:47 [[32minfo[39m]: Socket connected: IcRkJ_HlnnOt_e2VAAAH
+2026-05-10 04:56:47 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:56:47 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 04:56:47 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 04:56:47 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 04:56:47 [[32minfo[39m]: Socket IcRkJ_HlnnOt_e2VAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:56:47 [[32minfo[39m]: Socket IcRkJ_HlnnOt_e2VAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:56:47 [[32minfo[39m]: Socket IcRkJ_HlnnOt_e2VAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:56:47 [[32minfo[39m]: Socket IcRkJ_HlnnOt_e2VAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:56:47 [[32minfo[39m]: Socket IcRkJ_HlnnOt_e2VAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:56:47 [[32minfo[39m]: Socket IcRkJ_HlnnOt_e2VAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:56:47 [[32minfo[39m]: Socket IcRkJ_HlnnOt_e2VAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:56:47 [[32minfo[39m]: Socket IcRkJ_HlnnOt_e2VAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:56:47 [[32minfo[39m]: Socket IcRkJ_HlnnOt_e2VAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:56:47 [[32minfo[39m]: Socket IcRkJ_HlnnOt_e2VAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:56:47 [[32minfo[39m]: Socket IcRkJ_HlnnOt_e2VAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:56:47 [[32minfo[39m]: Socket IcRkJ_HlnnOt_e2VAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:56:48 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 04:56:48 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 04:56:48 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 04:59:48 [[32minfo[39m]: Socket disconnected: IcRkJ_HlnnOt_e2VAAAH
+2026-05-10 04:59:48 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:59:49 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:59:49 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 04:59:53 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 04:59:54 [[32minfo[39m]: Google OAuth login: mohdyounus8208@gmail.com
+2026-05-10 04:59:54 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:59:54 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:59:54 [[32minfo[39m]: Socket connected: QEmgMSUDquL_MPdQAAAJ
+2026-05-10 04:59:54 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 04:59:54 [[32minfo[39m]: Socket QEmgMSUDquL_MPdQAAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:59:54 [[32minfo[39m]: Socket QEmgMSUDquL_MPdQAAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:59:54 [[32minfo[39m]: Socket QEmgMSUDquL_MPdQAAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:59:54 [[32minfo[39m]: Socket QEmgMSUDquL_MPdQAAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:59:54 [[32minfo[39m]: Socket QEmgMSUDquL_MPdQAAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:59:54 [[32minfo[39m]: Socket QEmgMSUDquL_MPdQAAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:59:54 [[32minfo[39m]: Socket QEmgMSUDquL_MPdQAAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:59:54 [[32minfo[39m]: Socket QEmgMSUDquL_MPdQAAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:59:54 [[32minfo[39m]: Socket QEmgMSUDquL_MPdQAAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:59:54 [[32minfo[39m]: Socket QEmgMSUDquL_MPdQAAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:59:54 [[32minfo[39m]: Socket QEmgMSUDquL_MPdQAAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 04:59:54 [[32minfo[39m]: Socket QEmgMSUDquL_MPdQAAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 04:59:54 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 04:59:54 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 04:59:54 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 04:59:54 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 04:59:54 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 04:59:54 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:02:41 [[32minfo[39m]: Socket disconnected: QEmgMSUDquL_MPdQAAAJ
+2026-05-10 05:02:42 [[34mdebug[39m]: GET /.well-known/appspecific/com.chrome.devtools.json
+2026-05-10 05:02:52 [[32minfo[39m]: MongoDB connected: ac-jpxusaz-shard-00-01.mdp83mr.mongodb.net
+2026-05-10 05:02:52 [[32minfo[39m]: Cron jobs registered: daily follow-up @ 08:00, overdue sync every 6h
+2026-05-10 05:02:52 [[32minfo[39m]: Server running on http://localhost:3000 [development]
+2026-05-10 05:02:52 [[32minfo[39m]: Google OAuth endpoint: http://localhost:3000/api/auth/google
+2026-05-10 05:03:00 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 05:03:04 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 05:03:05 [[32minfo[39m]: Google OAuth login: mohdyounus8208@gmail.com
+2026-05-10 05:03:05 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:03:05 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:03:05 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:03:05 [[32minfo[39m]: Socket connected: RC5I3TwgPAASQLAiAAAB
+2026-05-10 05:03:05 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:03:05 [[32minfo[39m]: Socket RC5I3TwgPAASQLAiAAAB joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:03:05 [[32minfo[39m]: Socket RC5I3TwgPAASQLAiAAAB subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:03:05 [[32minfo[39m]: Socket RC5I3TwgPAASQLAiAAAB joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:03:05 [[32minfo[39m]: Socket RC5I3TwgPAASQLAiAAAB subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:03:05 [[32minfo[39m]: Socket RC5I3TwgPAASQLAiAAAB joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:03:05 [[32minfo[39m]: Socket RC5I3TwgPAASQLAiAAAB subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:03:05 [[32minfo[39m]: Socket RC5I3TwgPAASQLAiAAAB joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:03:05 [[32minfo[39m]: Socket RC5I3TwgPAASQLAiAAAB subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:03:05 [[32minfo[39m]: Socket RC5I3TwgPAASQLAiAAAB joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:03:05 [[32minfo[39m]: Socket RC5I3TwgPAASQLAiAAAB subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:03:05 [[32minfo[39m]: Socket RC5I3TwgPAASQLAiAAAB joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:03:05 [[32minfo[39m]: Socket RC5I3TwgPAASQLAiAAAB subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:03:05 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:03:05 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:03:05 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:03:05 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:03:05 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:03:46 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 05:03:47 [[32minfo[39m]: Socket disconnected: RC5I3TwgPAASQLAiAAAB
+2026-05-10 05:03:50 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 05:03:51 [[32minfo[39m]: Google OAuth login: mohdyounus8208@gmail.com
+2026-05-10 05:03:51 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:03:51 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:03:51 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:03:51 [[32minfo[39m]: Socket connected: wDypQQXIXZBYmbwfAAAD
+2026-05-10 05:03:51 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:03:51 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:03:51 [[32minfo[39m]: Socket wDypQQXIXZBYmbwfAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:03:51 [[32minfo[39m]: Socket wDypQQXIXZBYmbwfAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:03:51 [[32minfo[39m]: Socket wDypQQXIXZBYmbwfAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:03:51 [[32minfo[39m]: Socket wDypQQXIXZBYmbwfAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:03:51 [[32minfo[39m]: Socket wDypQQXIXZBYmbwfAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:03:51 [[32minfo[39m]: Socket wDypQQXIXZBYmbwfAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:03:51 [[32minfo[39m]: Socket wDypQQXIXZBYmbwfAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:03:51 [[32minfo[39m]: Socket wDypQQXIXZBYmbwfAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:03:51 [[32minfo[39m]: Socket wDypQQXIXZBYmbwfAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:03:51 [[32minfo[39m]: Socket wDypQQXIXZBYmbwfAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:03:51 [[32minfo[39m]: Socket wDypQQXIXZBYmbwfAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:03:51 [[32minfo[39m]: Socket wDypQQXIXZBYmbwfAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:03:51 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:03:51 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:03:51 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:03:52 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:03:58 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 05:03:58 [[32minfo[39m]: Socket disconnected: wDypQQXIXZBYmbwfAAAD
+2026-05-10 05:04:02 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 05:04:03 [[32minfo[39m]: Google OAuth login: mohdyounus8208@gmail.com
+2026-05-10 05:04:03 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:04:03 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:04:03 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:04:03 [[32minfo[39m]: Socket connected: gBlExzGKdQxoUqoNAAAF
+2026-05-10 05:04:03 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:04:03 [[32minfo[39m]: Socket gBlExzGKdQxoUqoNAAAF joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:04:03 [[32minfo[39m]: Socket gBlExzGKdQxoUqoNAAAF subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:04:03 [[32minfo[39m]: Socket gBlExzGKdQxoUqoNAAAF joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:04:03 [[32minfo[39m]: Socket gBlExzGKdQxoUqoNAAAF subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:04:03 [[32minfo[39m]: Socket gBlExzGKdQxoUqoNAAAF joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:04:03 [[32minfo[39m]: Socket gBlExzGKdQxoUqoNAAAF subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:04:03 [[32minfo[39m]: Socket gBlExzGKdQxoUqoNAAAF joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:04:03 [[32minfo[39m]: Socket gBlExzGKdQxoUqoNAAAF subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:04:03 [[32minfo[39m]: Socket gBlExzGKdQxoUqoNAAAF joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:04:03 [[32minfo[39m]: Socket gBlExzGKdQxoUqoNAAAF subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:04:03 [[32minfo[39m]: Socket gBlExzGKdQxoUqoNAAAF joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:04:03 [[32minfo[39m]: Socket gBlExzGKdQxoUqoNAAAF subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:04:03 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:04:03 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:04:03 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:04:03 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:04:04 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:05:16 [[32minfo[39m]: Socket disconnected: gBlExzGKdQxoUqoNAAAF
+2026-05-10 05:07:20 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 05:07:24 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 05:07:25 [[32minfo[39m]: Google OAuth login: mohdyounus8208@gmail.com
+2026-05-10 05:07:25 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:07:25 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:07:25 [[32minfo[39m]: Socket connected: cw4Qe3evfGqfMvbWAAAH
+2026-05-10 05:07:25 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:07:25 [[32minfo[39m]: Socket cw4Qe3evfGqfMvbWAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:07:25 [[32minfo[39m]: Socket cw4Qe3evfGqfMvbWAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:07:25 [[32minfo[39m]: Socket cw4Qe3evfGqfMvbWAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:07:25 [[32minfo[39m]: Socket cw4Qe3evfGqfMvbWAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:07:25 [[32minfo[39m]: Socket cw4Qe3evfGqfMvbWAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:07:25 [[32minfo[39m]: Socket cw4Qe3evfGqfMvbWAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:07:25 [[32minfo[39m]: Socket cw4Qe3evfGqfMvbWAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:07:25 [[32minfo[39m]: Socket cw4Qe3evfGqfMvbWAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:07:25 [[32minfo[39m]: Socket cw4Qe3evfGqfMvbWAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:07:25 [[32minfo[39m]: Socket cw4Qe3evfGqfMvbWAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:07:25 [[32minfo[39m]: Socket cw4Qe3evfGqfMvbWAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:07:25 [[32minfo[39m]: Socket cw4Qe3evfGqfMvbWAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:07:25 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:07:25 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:07:25 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:07:25 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:07:25 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:07:25 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:08:18 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 05:08:18 [[32minfo[39m]: Socket disconnected: cw4Qe3evfGqfMvbWAAAH
+2026-05-10 05:08:45 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 05:08:46 [[32minfo[39m]: Google OAuth login: mohdyounus8208@gmail.com
+2026-05-10 05:08:46 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:08:46 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:08:47 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:08:47 [[32minfo[39m]: Socket connected: 3YlBzqilbPeY93luAAAJ
+2026-05-10 05:08:47 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:08:47 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:08:47 [[32minfo[39m]: Socket 3YlBzqilbPeY93luAAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:08:47 [[32minfo[39m]: Socket 3YlBzqilbPeY93luAAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:08:47 [[32minfo[39m]: Socket 3YlBzqilbPeY93luAAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:08:47 [[32minfo[39m]: Socket 3YlBzqilbPeY93luAAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:08:47 [[32minfo[39m]: Socket 3YlBzqilbPeY93luAAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:08:47 [[32minfo[39m]: Socket 3YlBzqilbPeY93luAAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:08:47 [[32minfo[39m]: Socket 3YlBzqilbPeY93luAAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:08:47 [[32minfo[39m]: Socket 3YlBzqilbPeY93luAAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:08:47 [[32minfo[39m]: Socket 3YlBzqilbPeY93luAAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:08:47 [[32minfo[39m]: Socket 3YlBzqilbPeY93luAAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:08:47 [[32minfo[39m]: Socket 3YlBzqilbPeY93luAAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:08:47 [[32minfo[39m]: Socket 3YlBzqilbPeY93luAAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:08:47 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:08:47 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:08:47 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:08:47 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:10:20 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 05:10:20 [[32minfo[39m]: Socket disconnected: 3YlBzqilbPeY93luAAAJ
+2026-05-10 05:10:24 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 05:10:24 [[32minfo[39m]: Google OAuth login: mohdyounus8208@gmail.com
+2026-05-10 05:10:24 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:10:24 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:10:24 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:10:24 [[32minfo[39m]: Socket connected: EqECTLIHKBpMSfmtAAAL
+2026-05-10 05:10:24 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:10:24 [[32minfo[39m]: Socket EqECTLIHKBpMSfmtAAAL joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:10:24 [[32minfo[39m]: Socket EqECTLIHKBpMSfmtAAAL subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:10:24 [[32minfo[39m]: Socket EqECTLIHKBpMSfmtAAAL joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:10:24 [[32minfo[39m]: Socket EqECTLIHKBpMSfmtAAAL subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:10:24 [[32minfo[39m]: Socket EqECTLIHKBpMSfmtAAAL joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:10:24 [[32minfo[39m]: Socket EqECTLIHKBpMSfmtAAAL subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:10:24 [[32minfo[39m]: Socket EqECTLIHKBpMSfmtAAAL joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:10:24 [[32minfo[39m]: Socket EqECTLIHKBpMSfmtAAAL subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:10:24 [[32minfo[39m]: Socket EqECTLIHKBpMSfmtAAAL joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:10:24 [[32minfo[39m]: Socket EqECTLIHKBpMSfmtAAAL subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:10:24 [[32minfo[39m]: Socket EqECTLIHKBpMSfmtAAAL joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:10:24 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:10:24 [[32minfo[39m]: Socket EqECTLIHKBpMSfmtAAAL subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:10:24 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:10:24 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:10:24 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:10:24 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:11:03 [[32minfo[39m]: Socket disconnected: EqECTLIHKBpMSfmtAAAL
+2026-05-10 05:11:03 [[34mdebug[39m]: GET /.well-known/appspecific/com.chrome.devtools.json
+2026-05-10 05:13:01 [[32minfo[39m]: MongoDB connected: ac-jpxusaz-shard-00-02.mdp83mr.mongodb.net
+2026-05-10 05:13:02 [[32minfo[39m]: Cron jobs registered: daily follow-up @ 08:00, overdue sync every 6h
+2026-05-10 05:13:02 [[32minfo[39m]: Server running on http://localhost:3000 [development]
+2026-05-10 05:13:02 [[32minfo[39m]: Google OAuth endpoint: http://localhost:3000/api/auth/google
+2026-05-10 05:13:11 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 05:13:14 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 05:13:15 [[32minfo[39m]: Google OAuth login: mohdyounus8208@gmail.com
+2026-05-10 05:13:15 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:13:15 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:13:15 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:13:15 [[32minfo[39m]: Socket connected: 8qo6lM_RERp2lx0zAAAB
+2026-05-10 05:13:15 [[32minfo[39m]: Socket 8qo6lM_RERp2lx0zAAAB joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:13:15 [[32minfo[39m]: Socket 8qo6lM_RERp2lx0zAAAB subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:13:15 [[32minfo[39m]: Socket 8qo6lM_RERp2lx0zAAAB joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:13:15 [[32minfo[39m]: Socket 8qo6lM_RERp2lx0zAAAB subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:13:15 [[32minfo[39m]: Socket 8qo6lM_RERp2lx0zAAAB joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:13:15 [[32minfo[39m]: Socket 8qo6lM_RERp2lx0zAAAB subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:13:15 [[32minfo[39m]: Socket 8qo6lM_RERp2lx0zAAAB joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:13:15 [[32minfo[39m]: Socket 8qo6lM_RERp2lx0zAAAB subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:13:15 [[32minfo[39m]: Socket 8qo6lM_RERp2lx0zAAAB joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:13:15 [[32minfo[39m]: Socket 8qo6lM_RERp2lx0zAAAB subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:13:15 [[32minfo[39m]: Socket 8qo6lM_RERp2lx0zAAAB joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:13:15 [[32minfo[39m]: Socket 8qo6lM_RERp2lx0zAAAB subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:13:15 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:13:15 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:13:15 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:13:15 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:13:15 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:13:15 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:15:19 [[32minfo[39m]: Socket disconnected: 8qo6lM_RERp2lx0zAAAB
+2026-05-10 05:15:19 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:15:19 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:15:21 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 05:15:25 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 05:15:25 [[32minfo[39m]: Google OAuth login: mohdyounus8208@gmail.com
+2026-05-10 05:15:26 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:15:26 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:15:26 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:15:26 [[32minfo[39m]: Socket connected: jGv9wBrlrrXWCFvrAAAD
+2026-05-10 05:15:26 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:15:26 [[32minfo[39m]: Socket jGv9wBrlrrXWCFvrAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:15:26 [[32minfo[39m]: Socket jGv9wBrlrrXWCFvrAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:15:26 [[32minfo[39m]: Socket jGv9wBrlrrXWCFvrAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:15:26 [[32minfo[39m]: Socket jGv9wBrlrrXWCFvrAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:15:26 [[32minfo[39m]: Socket jGv9wBrlrrXWCFvrAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:15:26 [[32minfo[39m]: Socket jGv9wBrlrrXWCFvrAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:15:26 [[32minfo[39m]: Socket jGv9wBrlrrXWCFvrAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:15:26 [[32minfo[39m]: Socket jGv9wBrlrrXWCFvrAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:15:26 [[32minfo[39m]: Socket jGv9wBrlrrXWCFvrAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:15:26 [[32minfo[39m]: Socket jGv9wBrlrrXWCFvrAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:15:26 [[32minfo[39m]: Socket jGv9wBrlrrXWCFvrAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:15:26 [[32minfo[39m]: Socket jGv9wBrlrrXWCFvrAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:15:26 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:15:26 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:15:26 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:15:26 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:15:26 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:17:31 [[32minfo[39m]: MongoDB connected: ac-jpxusaz-shard-00-02.mdp83mr.mongodb.net
+2026-05-10 05:17:31 [[32minfo[39m]: Cron jobs registered: daily follow-up @ 08:00, overdue sync every 6h
+2026-05-10 05:17:31 [[32minfo[39m]: Server running on http://localhost:3000 [development]
+2026-05-10 05:17:31 [[32minfo[39m]: Google OAuth endpoint: http://localhost:3000/api/auth/google
+2026-05-10 05:17:32 [[32minfo[39m]: Socket connected: WVplpXgRG52KajhoAAAB
+2026-05-10 05:17:55 [[32minfo[39m]: Socket disconnected: WVplpXgRG52KajhoAAAB
+2026-05-10 05:17:56 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:17:56 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:17:57 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 05:18:01 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 05:18:01 [[32minfo[39m]: Google OAuth login: mohdyounus8208@gmail.com
+2026-05-10 05:18:01 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:18:01 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:18:01 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:18:01 [[32minfo[39m]: Socket connected: rNrxFuk8JmN3s0LAAAAD
+2026-05-10 05:18:01 [[32minfo[39m]: Socket rNrxFuk8JmN3s0LAAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:18:01 [[32minfo[39m]: Socket rNrxFuk8JmN3s0LAAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:18:01 [[32minfo[39m]: Socket rNrxFuk8JmN3s0LAAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:18:01 [[32minfo[39m]: Socket rNrxFuk8JmN3s0LAAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:18:01 [[32minfo[39m]: Socket rNrxFuk8JmN3s0LAAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:18:01 [[32minfo[39m]: Socket rNrxFuk8JmN3s0LAAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:18:01 [[32minfo[39m]: Socket rNrxFuk8JmN3s0LAAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:18:01 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:18:01 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:18:01 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:18:01 [[32minfo[39m]: Socket rNrxFuk8JmN3s0LAAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:18:01 [[32minfo[39m]: Socket rNrxFuk8JmN3s0LAAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:18:01 [[32minfo[39m]: Socket rNrxFuk8JmN3s0LAAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:18:01 [[32minfo[39m]: Socket rNrxFuk8JmN3s0LAAAAD joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:18:01 [[32minfo[39m]: Socket rNrxFuk8JmN3s0LAAAAD subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:18:01 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:18:02 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:18:02 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:18:24 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 05:18:31 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 05:18:31 [[32minfo[39m]: New Google user registered: denmoney30@gmail.com
+2026-05-10 05:18:31 [[32minfo[39m]: Google OAuth login: denmoney30@gmail.com
+2026-05-10 05:18:31 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:18:32 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:18:32 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:18:32 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:18:32 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:18:32 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:18:32 [[32minfo[39m]: Socket connected: 3hSgTRu2KnLPxVGzAAAF
+2026-05-10 05:18:32 [[32minfo[39m]: Socket 3hSgTRu2KnLPxVGzAAAF joined room user_69ffc7cfeaa41d031597a364
+2026-05-10 05:18:32 [[32minfo[39m]: Socket 3hSgTRu2KnLPxVGzAAAF subscribed to notifications for user 69ffc7cfeaa41d031597a364
+2026-05-10 05:18:32 [[32minfo[39m]: Socket 3hSgTRu2KnLPxVGzAAAF joined room user_69ffc7cfeaa41d031597a364
+2026-05-10 05:18:32 [[32minfo[39m]: Socket 3hSgTRu2KnLPxVGzAAAF subscribed to notifications for user 69ffc7cfeaa41d031597a364
+2026-05-10 05:18:32 [[32minfo[39m]: Socket 3hSgTRu2KnLPxVGzAAAF joined room user_69ffc7cfeaa41d031597a364
+2026-05-10 05:18:32 [[32minfo[39m]: Socket 3hSgTRu2KnLPxVGzAAAF subscribed to notifications for user 69ffc7cfeaa41d031597a364
+2026-05-10 05:18:32 [[32minfo[39m]: Socket 3hSgTRu2KnLPxVGzAAAF joined room user_69ffc7cfeaa41d031597a364
+2026-05-10 05:18:32 [[32minfo[39m]: Socket 3hSgTRu2KnLPxVGzAAAF subscribed to notifications for user 69ffc7cfeaa41d031597a364
+2026-05-10 05:18:32 [[32minfo[39m]: Socket 3hSgTRu2KnLPxVGzAAAF joined room user_69ffc7cfeaa41d031597a364
+2026-05-10 05:18:32 [[32minfo[39m]: Socket 3hSgTRu2KnLPxVGzAAAF subscribed to notifications for user 69ffc7cfeaa41d031597a364
+2026-05-10 05:18:32 [[32minfo[39m]: Socket 3hSgTRu2KnLPxVGzAAAF joined room user_69ffc7cfeaa41d031597a364
+2026-05-10 05:18:32 [[32minfo[39m]: Socket 3hSgTRu2KnLPxVGzAAAF subscribed to notifications for user 69ffc7cfeaa41d031597a364
+2026-05-10 05:18:32 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:18:32 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:18:32 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:18:37 [[32minfo[39m]: Socket disconnected: 3hSgTRu2KnLPxVGzAAAF
+2026-05-10 05:19:27 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 05:19:28 [[32minfo[39m]: Socket disconnected: rNrxFuk8JmN3s0LAAAAD
+2026-05-10 05:19:31 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 05:19:31 [[32minfo[39m]: Google OAuth login: mohdyounus8208@gmail.com
+2026-05-10 05:19:31 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:19:31 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:19:31 [[32minfo[39m]: Socket connected: LJZqcgiMdADEdbuGAAAH
+2026-05-10 05:19:31 [[32minfo[39m]: Socket LJZqcgiMdADEdbuGAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:19:31 [[32minfo[39m]: Socket LJZqcgiMdADEdbuGAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:19:31 [[32minfo[39m]: Socket LJZqcgiMdADEdbuGAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:19:31 [[32minfo[39m]: Socket LJZqcgiMdADEdbuGAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:19:31 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:19:31 [[32minfo[39m]: Socket LJZqcgiMdADEdbuGAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:19:31 [[32minfo[39m]: Socket LJZqcgiMdADEdbuGAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:19:31 [[32minfo[39m]: Socket LJZqcgiMdADEdbuGAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:19:31 [[32minfo[39m]: Socket LJZqcgiMdADEdbuGAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:19:31 [[32minfo[39m]: Socket LJZqcgiMdADEdbuGAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:19:31 [[32minfo[39m]: Socket LJZqcgiMdADEdbuGAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:19:31 [[32minfo[39m]: Socket LJZqcgiMdADEdbuGAAAH joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:19:31 [[32minfo[39m]: Socket LJZqcgiMdADEdbuGAAAH subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:19:31 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:19:31 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:19:31 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:19:31 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:19:31 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:19:32 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:20:10 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 05:20:10 [[32minfo[39m]: Socket disconnected: LJZqcgiMdADEdbuGAAAH
+2026-05-10 05:20:14 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 05:20:14 [[32minfo[39m]: Google OAuth login: mohdyounus8208@gmail.com
+2026-05-10 05:20:14 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:20:14 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:20:15 [[32minfo[39m]: Socket connected: aTvueqYnzjXYLyg_AAAJ
+2026-05-10 05:20:15 [[32minfo[39m]: Socket aTvueqYnzjXYLyg_AAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:20:15 [[32minfo[39m]: Socket aTvueqYnzjXYLyg_AAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:20:15 [[32minfo[39m]: Socket aTvueqYnzjXYLyg_AAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:20:15 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:20:15 [[32minfo[39m]: Socket aTvueqYnzjXYLyg_AAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:20:15 [[32minfo[39m]: Socket aTvueqYnzjXYLyg_AAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:20:15 [[32minfo[39m]: Socket aTvueqYnzjXYLyg_AAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:20:15 [[32minfo[39m]: Socket aTvueqYnzjXYLyg_AAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:20:15 [[32minfo[39m]: Socket aTvueqYnzjXYLyg_AAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:20:15 [[32minfo[39m]: Socket aTvueqYnzjXYLyg_AAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:20:15 [[32minfo[39m]: Socket aTvueqYnzjXYLyg_AAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:20:15 [[32minfo[39m]: Socket aTvueqYnzjXYLyg_AAAJ joined room user_69ffbfb31c95008435f7efaa
+2026-05-10 05:20:15 [[32minfo[39m]: Socket aTvueqYnzjXYLyg_AAAJ subscribed to notifications for user 69ffbfb31c95008435f7efaa
+2026-05-10 05:20:15 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:20:15 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:20:15 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:20:15 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:20:15 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:20:15 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:20:48 [[32minfo[39m]: Socket disconnected: aTvueqYnzjXYLyg_AAAJ
+2026-05-10 05:20:48 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:20:48 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:20:55 [[32minfo[39m]: MongoDB connected: ac-jpxusaz-shard-00-01.mdp83mr.mongodb.net
+2026-05-10 05:20:55 [[32minfo[39m]: Cron jobs registered: daily follow-up @ 08:00, overdue sync every 6h
+2026-05-10 05:20:55 [[32minfo[39m]: Server running on http://localhost:3000 [development]
+2026-05-10 05:20:55 [[32minfo[39m]: Google OAuth endpoint: http://localhost:3000/api/auth/google
+2026-05-10 05:21:10 [[34mdebug[39m]: GET /api/auth/google
+2026-05-10 05:21:14 [[34mdebug[39m]: GET /api/auth/google/callback
+2026-05-10 05:21:14 [[32minfo[39m]: New Google user registered: mrsimens72@gmail.com
+2026-05-10 05:21:14 [[32minfo[39m]: Google OAuth login: mrsimens72@gmail.com
+2026-05-10 05:21:14 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:21:14 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:21:14 [[32minfo[39m]: Socket connected: HBvB6A2USdF8mCXBAAAB
+2026-05-10 05:21:14 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
+2026-05-10 05:21:14 [[32minfo[39m]: Socket HBvB6A2USdF8mCXBAAAB joined room user_69ffc87211bf794b62ac72e8
+2026-05-10 05:21:14 [[32minfo[39m]: Socket HBvB6A2USdF8mCXBAAAB subscribed to notifications for user 69ffc87211bf794b62ac72e8
+2026-05-10 05:21:14 [[32minfo[39m]: Socket HBvB6A2USdF8mCXBAAAB joined room user_69ffc87211bf794b62ac72e8
+2026-05-10 05:21:14 [[32minfo[39m]: Socket HBvB6A2USdF8mCXBAAAB subscribed to notifications for user 69ffc87211bf794b62ac72e8
+2026-05-10 05:21:14 [[32minfo[39m]: Socket HBvB6A2USdF8mCXBAAAB joined room user_69ffc87211bf794b62ac72e8
+2026-05-10 05:21:14 [[32minfo[39m]: Socket HBvB6A2USdF8mCXBAAAB subscribed to notifications for user 69ffc87211bf794b62ac72e8
+2026-05-10 05:21:14 [[32minfo[39m]: Socket HBvB6A2USdF8mCXBAAAB joined room user_69ffc87211bf794b62ac72e8
+2026-05-10 05:21:14 [[32minfo[39m]: Socket HBvB6A2USdF8mCXBAAAB subscribed to notifications for user 69ffc87211bf794b62ac72e8
+2026-05-10 05:21:14 [[32minfo[39m]: Socket HBvB6A2USdF8mCXBAAAB joined room user_69ffc87211bf794b62ac72e8
+2026-05-10 05:21:14 [[32minfo[39m]: Socket HBvB6A2USdF8mCXBAAAB subscribed to notifications for user 69ffc87211bf794b62ac72e8
+2026-05-10 05:21:14 [[32minfo[39m]: Socket HBvB6A2USdF8mCXBAAAB joined room user_69ffc87211bf794b62ac72e8
+2026-05-10 05:21:14 [[32minfo[39m]: Socket HBvB6A2USdF8mCXBAAAB subscribed to notifications for user 69ffc87211bf794b62ac72e8
+2026-05-10 05:21:14 [[34mdebug[39m]: GET /api/auth/me
+2026-05-10 05:21:14 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:21:14 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:21:14 [[34mdebug[39m]: GET /api/invoices
+2026-05-10 05:21:15 [[34mdebug[39m]: GET /api/notifications
+2026-05-10 05:21:15 [[34mdebug[39m]: GET /api/invoices/stats/dashboard
