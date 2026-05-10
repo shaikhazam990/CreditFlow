@@ -1,12 +1,9 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useDispatch } from "react-redux";
-import { getMeThunk, logout } from "../features/auth/authSlice";
 import Loader from "../shared/components/Loader";
 
 const OAuthCallback = () => {
   const navigate = useNavigate();
-  const dispatch = useDispatch();
   const [error, setError] = useState(null);
 
   useEffect(() => {
@@ -35,13 +32,8 @@ const OAuthCallback = () => {
     }
 
     localStorage.setItem("token", token);
-window.history.replaceState(null, "", "/oauth/callback");
-
-// Let AppInit handle getMeThunk fresh on reload
-window.location.href = "/dashboard";
-
-    // ← Dispatch getMeThunk and WAIT for it to finish before navigating
-
+    window.location.href = "/dashboard";
+  }, []);
 
   if (error) {
     return (

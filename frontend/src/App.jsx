@@ -2,25 +2,21 @@ import { useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import AppRoutes from "./app.routes";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { getMeThunk } from "./features/auth/authSlice";
 import "./shared/styles/global.scss";
 
 const AppInit = () => {
   const dispatch = useDispatch();
-  const localToken = localStorage.getItem("token");
 
-useEffect(() => {
-  const localToken = localStorage.getItem("token");
-  console.log("🚀 AppInit useEffect — localToken:", localToken);
-
-  if (localToken) {
-    dispatch(getMeThunk()).then((r) => console.log("getMeThunk result:", r));
-  } else {
-    console.log(" No token — setInitialized");
-    dispatch({ type: "auth/setInitialized" });
-  }
-}, []);
+  useEffect(() => {
+    const localToken = localStorage.getItem("token");
+    if (localToken) {
+      dispatch(getMeThunk());
+    } else {
+      dispatch({ type: "auth/setInitialized" });
+    }
+  }, []);
 
   return <AppRoutes />;
 };

@@ -6,8 +6,6 @@ const Protected = ({ children }) => {
   const { token, initialized } = useSelector((s) => s.auth);
   const localToken = localStorage.getItem("token");
 
-  console.log("🔒 Protected check:", { token, initialized, localToken });
-
   if (!localToken && !token) return <Navigate to="/login" replace />;
   if (!initialized) return <Loader fullPage />;
   if (!token) return <Navigate to="/login" replace />;
