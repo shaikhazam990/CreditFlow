@@ -12,7 +12,6 @@ const Login = () => {
   const location = useLocation();
   const { token, initialized } = useSelector((s) => s.auth);
 
-  // ← If already logged in, redirect to dashboard
   if (initialized && token) return <Navigate to="/dashboard" replace />;
 
   useEffect(() => {

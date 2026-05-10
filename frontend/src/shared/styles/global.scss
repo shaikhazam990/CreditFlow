@@ -1,6 +1,4 @@
-// ─── Design Tokens ────────────────────────────────────────────────────────────
 :root {
-  // Palette — neutral, professional, no gradients
   --color-bg:          #f9f9f8;
   --color-surface:     #ffffff;
   --color-border:      #e5e5e3;
@@ -74,7 +72,6 @@
   --transition: 150ms ease;
 }
 
-// ─── Reset ────────────────────────────────────────────────────────────────────
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 html { font-size: 16px; -webkit-font-smoothing: antialiased; }
@@ -93,12 +90,10 @@ button { font-family: inherit; cursor: pointer; }
 input, textarea, select { font-family: inherit; }
 img { display: block; max-width: 100%; }
 
-// ─── Scrollbar ────────────────────────────────────────────────────────────────
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--color-border-strong); border-radius: 99px; }
 
-// ─── Utilities ────────────────────────────────────────────────────────────────
 .sr-only {
   position: absolute; width: 1px; height: 1px;
   padding: 0; margin: -1px; overflow: hidden;
@@ -107,7 +102,6 @@ img { display: block; max-width: 100%; }
 
 .truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
-// ─── Status Badge ────────────────────────────────────────────────────────────
 .badge {
   display: inline-flex;
   align-items: center;
@@ -129,7 +123,6 @@ img { display: block; max-width: 100%; }
   &--failed    { background: var(--color-danger-light);  color: var(--color-danger); }
 }
 
-// ─── Button ──────────────────────────────────────────────────────────────────
 .btn {
   display: inline-flex; align-items: center; justify-content: center;
   gap: var(--space-2);
@@ -181,7 +174,6 @@ img { display: block; max-width: 100%; }
   &--lg { padding: var(--space-3) var(--space-6); font-size: var(--text-base); }
 }
 
-// ─── Form controls ───────────────────────────────────────────────────────────
 .form-group {
   display: flex;
   flex-direction: column;
@@ -215,7 +207,6 @@ img { display: block; max-width: 100%; }
   color: var(--color-danger);
 }
 
-// ─── Card ────────────────────────────────────────────────────────────────────
 .card {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
@@ -224,7 +215,6 @@ img { display: block; max-width: 100%; }
   box-shadow: var(--shadow-xs);
 }
 
-// ─── Table ───────────────────────────────────────────────────────────────────
 .table-wrap {
   overflow-x: auto;
   border: 1px solid var(--color-border);
@@ -262,7 +252,6 @@ table {
   tbody tr:hover td { background: var(--color-bg); }
 }
 
-// ─── Modal overlay ───────────────────────────────────────────────────────────
 .modal-overlay {
   position: fixed; inset: 0; z-index: 100;
   background: rgba(0,0,0,0.3);
@@ -301,7 +290,6 @@ table {
   }
 }
 
-// ─── Animations ──────────────────────────────────────────────────────────────
 @keyframes fadeIn {
   from { opacity: 0; }
   to   { opacity: 1; }
@@ -316,7 +304,6 @@ table {
   to { transform: rotate(360deg); }
 }
 
-// ─── Layout Shell ────────────────────────────────────────────────────────────
 .app-shell {
   display: flex;
   min-height: 100vh;
@@ -358,7 +345,6 @@ table {
   }
 }
 
-// ─── Pagination ──────────────────────────────────────────────────────────────
 .pagination {
   display: flex;
   align-items: center;

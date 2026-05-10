@@ -13,7 +13,6 @@ const useNotifications = () => {
   const { items, unreadCount, loading } = useSelector((s) => s.notifications);
   const { user } = useSelector((s) => s.auth);
 
-  // Initialise Socket.io and subscribe to notifications
   useEffect(() => {
     if (!user?._id) return;
 

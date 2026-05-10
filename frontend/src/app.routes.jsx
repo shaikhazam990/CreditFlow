@@ -26,7 +26,6 @@ const AppRoutes = () => (
     <Route path="/login"    element={<Login />} />
     <Route path="/register" element={<Register />} />
 
-    {/* Google OAuth callback — reads token from URL fragment, stores it, redirects */}
     <Route path="/oauth/callback" element={<OAuthCallback />} />
 
     {/* Protected */}

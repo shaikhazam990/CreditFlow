@@ -55,7 +55,6 @@ const authSlice = createSlice({
     },
   },
   extraReducers: (builder) => {
-    // Login
     builder.addCase(loginThunk.pending, (s) => {
       s.loading = true;
       s.error = null;
@@ -73,7 +72,6 @@ const authSlice = createSlice({
       toast.error(a.payload);
     });
 
-    // Register
     builder.addCase(registerThunk.pending, (s) => {
       s.loading = true;
       s.error = null;

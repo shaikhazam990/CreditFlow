@@ -7,14 +7,12 @@ const api = axios.create({
   headers: { "Content-Type": "application/json" },
 });
 
-// Attach JWT from localStorage on every request
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem("token");
   if (token) config.headers.Authorization = `Bearer ${token}`;
   return config;
 });
 
-// Global error handling
 api.interceptors.response.use(
   (res) => res,
   (err) => {
@@ -24,7 +22,6 @@ api.interceptors.response.use(
     if (status === 401) {
       console.log("🚨 401 on:", err.config.url);
       localStorage.removeItem("token");
-      // ← Don't redirect if we're already on login or oauth/callback
       const path = window.location.pathname;
       if (!path.includes("/login") && !path.includes("/oauth/callback")) {
         window.location.href = "/login";

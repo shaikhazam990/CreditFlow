@@ -102,7 +102,6 @@ const Invoices = () => {
         </div>
       </div>
 
-      {/* Filters */}
       <div style={{ display: "flex", gap: "var(--space-3)", marginBottom: "var(--space-6)", flexWrap: "wrap", alignItems: "center" }}>
         <input
           className="form-input"

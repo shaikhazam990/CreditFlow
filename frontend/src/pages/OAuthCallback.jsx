@@ -4,28 +4,17 @@ import { useDispatch } from "react-redux";
 import { getMeThunk } from "../features/auth/authSlice";
 import Loader from "../shared/components/Loader";
 
-/**
- * /oauth/callback
- *
- * The backend redirects here after a successful Google OAuth flow:
- *   http://localhost:5173/oauth/callback#token=eyJ...
- *
- * We read the token from the URL fragment (hash), store it in
- * localStorage, fetch the user profile, then navigate to /dashboard.
- *
- * The fragment is never sent to any server — it stays client-side only.
- */
+
 const OAuthCallback = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const hash = window.location.hash; // e.g.  "#token=eyJ..."
+    const hash = window.location.hash; 
     const params = new URLSearchParams(hash.replace("#", "?"));
     const token = params.get("token");
 
-    // Also check query string for error codes from the backend
     const searchParams = new URLSearchParams(window.location.search);
     const err = searchParams.get("error");
 
@@ -46,10 +35,8 @@ const OAuthCallback = () => {
       return;
     }
 
-    // Store token then fetch user profile
     localStorage.setItem("token", token);
 
-    // Clean the fragment from the URL immediately for security
     window.history.replaceState(null, "", "/oauth/callback");
 
     dispatch(getMeThunk()).then((result) => {
