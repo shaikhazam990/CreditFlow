@@ -1,9 +1,6 @@
 const { validationResult } = require("express-validator");
 
-/**
- * Runs after express-validator chains.
- * Returns 422 with structured errors if validation fails.
- */
+
 const handleValidation = (req, res, next) => {
   const errors = validationResult(req);
   if (!errors.isEmpty()) {

@@ -6,7 +6,6 @@ const { getDashboardStats } = require("../services/invoice.service");
 const { getIO } = require("../config/socket");
 const logger = require("../utils/logger");
 
-// GET /api/invoices
 const getInvoices = async (req, res) => {
   try {
     const { status, page = 1, limit = 20, search } = req.query;
@@ -37,7 +36,6 @@ const getInvoices = async (req, res) => {
   }
 };
 
-// GET /api/invoices/:id
 const getInvoice = async (req, res) => {
   try {
     const invoice = await Invoice.findById(req.params.id).populate("createdBy", "name email");
@@ -53,7 +51,6 @@ const getInvoice = async (req, res) => {
   }
 };
 
-// POST /api/invoices
 const createInvoice = async (req, res) => {
   try {
     const data = { ...req.body, createdBy: req.user._id };
@@ -73,7 +70,6 @@ const createInvoice = async (req, res) => {
   }
 };
 
-// PATCH /api/invoices/:id
 const updateInvoice = async (req, res) => {
   try {
     const invoice = await Invoice.findById(req.params.id);
@@ -97,7 +93,6 @@ const updateInvoice = async (req, res) => {
   }
 };
 
-// DELETE /api/invoices/:id
 const deleteInvoice = async (req, res) => {
   try {
     const invoice = await Invoice.findByIdAndDelete(req.params.id);
@@ -110,7 +105,6 @@ const deleteInvoice = async (req, res) => {
   }
 };
 
-// PATCH /api/invoices/:id/mark-paid
 const markPaid = async (req, res) => {
   try {
     const invoice = await Invoice.findById(req.params.id);
@@ -128,7 +122,6 @@ const markPaid = async (req, res) => {
   }
 };
 
-// POST /api/invoices/upload-csv
 const uploadCSV = async (req, res) => {
   if (!req.file) return res.status(400).json({ success: false, message: "No file uploaded." });
 
@@ -139,7 +132,7 @@ const uploadCSV = async (req, res) => {
     .pipe(csv())
     .on("data", (row) => results.push(row))
     .on("end", async () => {
-      fs.unlinkSync(req.file.path); // clean up temp file
+      fs.unlinkSync(req.file.path); 
 
       for (const row of results) {
         try {
@@ -176,7 +169,6 @@ const uploadCSV = async (req, res) => {
     });
 };
 
-// POST /api/invoices/:id/attachments
 const uploadAttachment = async (req, res) => {
   try {
     if (!req.file) return res.status(400).json({ success: false, message: "No file uploaded." });
@@ -201,7 +193,6 @@ const uploadAttachment = async (req, res) => {
   }
 };
 
-// DELETE /api/invoices/:id/attachments/:filename
 const deleteAttachment = async (req, res) => {
   try {
     const invoice = await Invoice.findById(req.params.id);
@@ -211,7 +202,6 @@ const deleteAttachment = async (req, res) => {
     const idx = invoice.attachments.findIndex((a) => a.filename === filename);
     if (idx === -1) return res.status(404).json({ success: false, message: "Attachment not found." });
 
-    // Remove file from disk
     const filePath = `uploads/attachments/${filename}`;
     try { if (fs.existsSync(filePath)) fs.unlinkSync(filePath); } catch (_) {}
 
@@ -224,7 +214,6 @@ const deleteAttachment = async (req, res) => {
   }
 };
 
-// GET /api/invoices/stats/dashboard
 const getDashboard = async (req, res) => {
   try {
     const stats = await getDashboardStats(req.user._id, req.user.role === "admin");

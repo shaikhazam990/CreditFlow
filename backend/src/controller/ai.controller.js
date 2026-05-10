@@ -4,8 +4,6 @@ const { STAGE_LABELS } = require("../utils/overdueCalculator");
 const Invoice = require("../model/invoice.model");
 const logger = require("../utils/logger");
 
-// POST /api/ai/generate
-// Body: { invoiceId, stage }
 const generateEmail = async (req, res) => {
   try {
     const { invoiceId, stage } = req.body;
@@ -35,7 +33,6 @@ const generateEmail = async (req, res) => {
   }
 };
 
-// GET /api/ai/provider
 const getProvider = async (req, res) => {
   res.json({
     success: true,

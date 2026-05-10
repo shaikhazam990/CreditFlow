@@ -1,7 +1,3 @@
-/**
- * Simple in-memory cache — swap for Redis (ioredis) in production.
- * Interface is intentionally Redis-compatible for easy migration.
- */
 const store = new Map();
 
 const cache = {

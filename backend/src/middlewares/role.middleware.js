@@ -1,7 +1,4 @@
-/**
- * Role-based access control middleware.
- * Usage: router.delete('/resource', authenticate, requireRole('admin'), controller)
- */
+
 const requireRole = (...roles) => {
   return (req, res, next) => {
     if (!req.user) {

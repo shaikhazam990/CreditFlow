@@ -8,7 +8,6 @@ const { getIO } = require("../config/socket");
 const Notification = require("../model/notification.model");
 const logger = require("../utils/logger");
 
-// POST /api/emails/send/:invoiceId
 const sendEmail = async (req, res) => {
   try {
     const invoice = await Invoice.findById(req.params.invoiceId);
@@ -38,12 +37,10 @@ const sendEmail = async (req, res) => {
       dryRun,
     });
 
-    // Update invoice follow-up tracking
     invoice.followUpCount += 1;
     invoice.lastFollowUpAt = new Date();
     await invoice.save();
 
-    // Create in-app notification
     const notif = await Notification.create({
       user: req.user._id,
       title: dryRun ? "[Dry Run] Email Simulated" : "Follow-up Email Sent",
@@ -64,7 +61,6 @@ const sendEmail = async (req, res) => {
   }
 };
 
-// GET /api/emails/logs
 const getLogs = async (req, res) => {
   try {
     const { page = 1, limit = 20, status, invoiceId } = req.query;
@@ -89,7 +85,6 @@ const getLogs = async (req, res) => {
   }
 };
 
-// GET /api/emails/logs/:id
 const getLog = async (req, res) => {
   try {
     const log = await EmailLog.findById(req.params.id)
@@ -103,7 +98,6 @@ const getLog = async (req, res) => {
   }
 };
 
-// POST /api/emails/preview/:invoiceId
 const previewEmail = async (req, res) => {
   try {
     const invoice = await Invoice.findById(req.params.invoiceId);

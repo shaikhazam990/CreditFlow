@@ -1,6 +1,5 @@
 const Notification = require("../model/notification.model");
 
-// GET /api/notifications
 const getNotifications = async (req, res) => {
   try {
     const { page = 1, limit = 20, unreadOnly } = req.query;
@@ -24,7 +23,6 @@ const getNotifications = async (req, res) => {
   }
 };
 
-// PATCH /api/notifications/:id/read
 const markRead = async (req, res) => {
   try {
     const notif = await Notification.findOneAndUpdate(
@@ -39,7 +37,6 @@ const markRead = async (req, res) => {
   }
 };
 
-// PATCH /api/notifications/read-all
 const markAllRead = async (req, res) => {
   try {
     await Notification.updateMany({ user: req.user._id, read: false }, { read: true });
@@ -49,7 +46,6 @@ const markAllRead = async (req, res) => {
   }
 };
 
-// DELETE /api/notifications/:id
 const deleteNotification = async (req, res) => {
   try {
     await Notification.findOneAndDelete({ _id: req.params.id, user: req.user._id });

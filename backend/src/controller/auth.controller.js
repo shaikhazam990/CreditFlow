@@ -7,7 +7,6 @@ const signToken = (id) =>
     expiresIn: process.env.JWT_EXPIRES_IN || "7d",
   });
 
-// POST /api/auth/register
 const register = async (req, res) => {
   try {
     const { name, email, password, role } = req.body;
@@ -42,7 +41,6 @@ const register = async (req, res) => {
   }
 };
 
-// POST /api/auth/login
 const login = async (req, res) => {
   try {
     const { email, password } = req.body;
@@ -52,7 +50,6 @@ const login = async (req, res) => {
       return res.status(401).json({ success: false, message: "Invalid credentials." });
     }
 
-    // Block password login for Google-only accounts
     if (user.provider === "google" && !user.password) {
       return res.status(400).json({
         success: false,
@@ -80,12 +77,10 @@ const login = async (req, res) => {
   }
 };
 
-// GET /api/auth/me
 const getMe = async (req, res) => {
   res.json({ success: true, user: req.user });
 };
 
-// PATCH /api/auth/change-password
 const changePassword = async (req, res) => {
   try {
     const { currentPassword, newPassword } = req.body;
@@ -110,16 +105,6 @@ const changePassword = async (req, res) => {
   }
 };
 
-// ─── Google OAuth callbacks ───────────────────────────────────────────────────
-
-/**
- * GET /api/auth/google/callback
- *
- * Passport has already authenticated the user and attached req.user.
- * We issue a JWT and redirect the browser back to the frontend.
- * The frontend reads the token from the URL once, stores it, then
- * removes it from the address bar.
- */
 const googleCallback = (req, res) => {
   try {
     if (!req.user) {
@@ -131,8 +116,6 @@ const googleCallback = (req, res) => {
     const token = signToken(req.user._id);
     logger.info(`Google OAuth login: ${req.user.email}`);
 
-    // Pass token via URL fragment — never via query string in production;
-    // fragments are not sent to the server so they stay client-side.
     res.redirect(`${process.env.FRONTEND_URL}/oauth/callback#token=${token}`);
   } catch (err) {
     logger.error(`googleCallback error: ${err.message}`);
@@ -140,7 +123,6 @@ const googleCallback = (req, res) => {
   }
 };
 
-/**
  * GET /api/auth/google/failure
  * Passport redirects here on authentication failure.
  */
