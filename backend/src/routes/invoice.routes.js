@@ -13,7 +13,7 @@ const { handleValidation } = require("../middlewares/validation.middleware");
 
 const upload = multer({
   dest: "uploads/",
-  limits: { fileSize: 5 * 1024 * 1024 }, // 5MB
+  limits: { fileSize: 5 * 1024 * 1024 },
   fileFilter: (_, file, cb) => {
     if (file.mimetype === "text/csv" || file.originalname.endsWith(".csv")) cb(null, true);
     else cb(new Error("Only CSV files allowed"));
@@ -22,7 +22,7 @@ const upload = multer({
 
 const attachmentUpload = multer({
   dest: "uploads/attachments/",
-  limits: { fileSize: 10 * 1024 * 1024 }, // 10MB
+  limits: { fileSize: 10 * 1024 * 1024 },
   fileFilter: (_, file, cb) => {
     const allowed = ["application/pdf", "image/jpeg", "image/png", "image/webp", "image/gif"];
     if (allowed.includes(file.mimetype)) cb(null, true);
@@ -38,7 +38,6 @@ const invoiceValidation = [
   body("dueDate").isISO8601().withMessage("Valid due date required"),
 ];
 
-// All routes require authentication
 router.use(authenticate);
 
 router.get("/stats/dashboard", getDashboard);

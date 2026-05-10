@@ -8,7 +8,6 @@ const {
 const { authenticate } = require("../middlewares/auth.middleware");
 const { handleValidation } = require("../middlewares/validation.middleware");
 
-// ─── Email / Password Auth ────────────────────────────────────────────────────
 router.post(
   "/register",
   [
@@ -45,29 +44,20 @@ router.patch(
   changePassword
 );
 
-// ─── Google OAuth ─────────────────────────────────────────────────────────────
 
-/**
- * Step 1 — Redirect user to Google's consent screen.
- * Frontend: window.location.href = '/api/auth/google'
- */
 router.get(
   "/google",
   passport.authenticate("google", {
     scope: ["profile", "email"],
-    prompt: "select_account", // always show account picker
+    prompt: "select_account",
   })
 );
 
-/**
- * Step 2 — Google redirects back here with authorization code.
- * Passport exchanges the code, runs the verify callback, and populates req.user.
- */
 router.get(
   "/google/callback",
   passport.authenticate("google", {
     failureRedirect: "/api/auth/google/failure",
-    session: true, // session is used only for this redirect round-trip
+    session: true,
   }),
   googleCallback
 );

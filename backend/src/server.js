@@ -13,24 +13,18 @@ const PORT = process.env.PORT || 3000;
 
 
 const bootstrap = async () => {
-  // 1. Connect to MongoDB
   await connectDB();
 
-  // 2. Initialise Passport strategies (must run after DB is ready)
   initPassport();
 
-  // 3. Create HTTP server from Express app
   const httpServer = http.createServer(app);
 
-  // 4. Attach Socket.io
   initSocket(httpServer);
   registerInvoiceSocketEvents();
   registerNotificationSocketEvents();
 
-  // 5. Start cron jobs
   startCronJobs();
 
-  // 6. Listen
   httpServer.listen(PORT, () => {
     logger.info(
       `Server running on http://localhost:${PORT} [${process.env.NODE_ENV || "development"}]`

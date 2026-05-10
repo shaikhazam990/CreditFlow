@@ -16,15 +16,12 @@ const logger             = require("./utils/logger");
 
 const app = express();
 
-// ─── Security headers ────────────────────────────────────────────────────────
 app.use(
   helmet({
-    // Allow Google OAuth redirects in the same page
     contentSecurityPolicy: false,
   })
 );
 
-// ─── CORS ────────────────────────────────────────────────────────────────────
 app.use(
   cors({
     origin: process.env.FRONTEND_URL || "http://localhost:5173",
@@ -33,7 +30,6 @@ app.use(
   })
 );
 
-// ─── Rate limiting ───────────────────────────────────────────────────────────
 app.use(
   rateLimit({
     windowMs: parseInt(process.env.RATE_LIMIT_WINDOW_MS || "900000"),
@@ -48,17 +44,15 @@ app.use(
   "/api/auth",
   rateLimit({
     windowMs: 15 * 60 * 1000,
-    max: 200, // slightly higher to allow OAuth redirect chains
+    max: 200,
     message: { success: false, message: "Too many auth attempts." },
   })
 );
 
-// ─── Body parsers ────────────────────────────────────────────────────────────
 app.use(express.json({ limit: "1mb" }));
 app.use(express.urlencoded({ extended: true, limit: "1mb" }));
 app.use(mongoSanitize());
 
-// ─── Session (used only for Passport OAuth redirect round-trip) ──────────────
 app.use(
   session({
     secret: process.env.SESSION_SECRET || process.env.JWT_SECRET,
@@ -66,48 +60,42 @@ app.use(
     saveUninitialized: false,
     store: MongoStore.create({
       mongoUrl: process.env.MONGO_URI,
-      ttl: 60 * 10, // 10 minutes — sessions are only needed during OAuth flow
+      ttl: 60 * 10,
       autoRemove: "native",
     }),
     cookie: {
       secure: process.env.NODE_ENV === "production",
       httpOnly: true,
-      maxAge: 1000 * 60 * 10, // 10 minutes
+      maxAge: 1000 * 60 * 10,
       sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
     },
   })
 );
 
-// ─── Passport (after session middleware) ────────────────────────────────────
 app.use(passport.initialize());
 app.use(passport.session());
 
-// ─── Request logging ─────────────────────────────────────────────────────────
 app.use((req, _res, next) => {
   logger.debug(`${req.method} ${req.path}`);
   next();
 });
 
-// ─── Routes ──────────────────────────────────────────────────────────────────
 app.use("/api/auth",          authRoutes);
 app.use("/api/invoices",      invoiceRoutes);
 app.use("/api/emails",        emailRoutes);
 app.use("/api/notifications", notificationRoutes);
 app.use("/api/ai",            aiRoutes);
 
-// ─── Static: invoice attachments ─────────────────────────────────────────────
 app.use("/uploads/attachments", express.static("uploads/attachments"));
 
 app.get("/api/health", (_req, res) =>
   res.json({ status: "ok", ts: new Date().toISOString() })
 );
 
-// ─── 404 ─────────────────────────────────────────────────────────────────────
 app.use((_req, res) =>
   res.status(404).json({ success: false, message: "Route not found." })
 );
 
-// ─── Global error handler ────────────────────────────────────────────────────
 app.use((err, _req, res, _next) => {
   logger.error(`Unhandled error: ${err.message}`);
   res.status(err.status || 500).json({

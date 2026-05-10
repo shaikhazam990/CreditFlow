@@ -9,15 +9,7 @@ const { getIO } = require("../config/socket");
 const { STAGE_LABELS } = require("../utils/overdueCalculator");
 const logger = require("../utils/logger");
 
-/**
- * Main cron — runs every day at 08:00.
- * 1. Syncs overdue days on all invoices.
- * 2. For each eligible overdue invoice, generates and sends a follow-up email.
- * 3. Creates in-app notifications.
- * 4. Emits socket events.
- */
 const startCronJobs = () => {
-  // Daily follow-up job at 08:00
   cron.schedule("0 8 * * *", async () => {
     logger.info("CRON: Starting daily follow-up job");
 
@@ -34,7 +26,7 @@ const startCronJobs = () => {
       for (const invoice of overdueInvoices) {
         try {
           const stage = invoice.followUpStage || 1;
-          if (stage === 0) continue; // not yet overdue
+          if (stage === 0) continue;
 
           const ctx = buildInvoiceContext(invoice);
           const emailBody = await generateFollowUpEmail(stage, ctx);
@@ -53,12 +45,10 @@ const startCronJobs = () => {
             dryRun: process.env.DRY_RUN === "true",
           });
 
-          // Update invoice follow-up tracking
           invoice.followUpCount += 1;
           invoice.lastFollowUpAt = new Date();
           await invoice.save();
 
-          // Create in-app notification for the invoice owner
           if (invoice.createdBy) {
             const notif = await Notification.create({
               user: invoice.createdBy._id,
@@ -68,12 +58,10 @@ const startCronJobs = () => {
               relatedInvoice: invoice._id,
             });
 
-            // Real-time push via Socket.io
             try {
               getIO().to(`user_${invoice.createdBy._id}`).emit("notification", notif);
               getIO().to(`user_${invoice.createdBy._id}`).emit("invoice_updated", { invoiceId: invoice._id });
             } catch (_) {
-              // Socket not yet init'd (e.g., during tests) — skip silently
             }
           }
 
@@ -89,7 +77,6 @@ const startCronJobs = () => {
     }
   });
 
-  // Sync overdue days every 6 hours (keeps UI current without waiting for 08:00)
   cron.schedule("0 */6 * * *", async () => {
     logger.info("CRON: Running overdue sync");
     await syncOverdueStatus();

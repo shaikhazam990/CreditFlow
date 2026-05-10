@@ -3,10 +3,6 @@ const { HumanMessage, SystemMessage } = require("@langchain/core/messages");
 const { getPromptForStage } = require("../utils/promptTemplates");
 const logger = require("../utils/logger");
 
-/**
- * Lazy-initialise the LLM client so we only create it on first use.
- * Supports OpenAI (default) and Gemini via env var AI_PROVIDER.
- */
 let llmClient = null;
 
 const getLLMClient = () => {
@@ -22,7 +18,6 @@ const getLLMClient = () => {
       maxTokens: 800,
     });
   } else if (provider === "gemini") {
-    // Using @langchain/community GoogleGenerativeAI wrapper
     const { ChatGoogleGenerativeAI } = require("@langchain/community/chat_models/googleai");
     llmClient = new ChatGoogleGenerativeAI({
       apiKey: process.env.GEMINI_API_KEY,
@@ -37,13 +32,7 @@ const getLLMClient = () => {
   return llmClient;
 };
 
-/**
- * Generate a follow-up email body for the given stage and invoice context.
- *
- * @param {number} stage        - Follow-up stage (1–5)
- * @param {object} invoiceCtx   - { clientName, invoiceNumber, amount, dueDate, overdueDays, followUpCount, paymentLink }
- * @returns {Promise<string>}   - Generated email body
- */
+
 const generateFollowUpEmail = async (stage, invoiceCtx) => {
   const prompt = getPromptForStage(stage, invoiceCtx);
   const client = getLLMClient();
@@ -68,9 +57,7 @@ const generateFollowUpEmail = async (stage, invoiceCtx) => {
   }
 };
 
-/**
- * Map stage number → subject line prefix.
- */
+
 const getSubjectForStage = (stage, invoiceNumber, clientName) => {
   const subjects = {
     1: `Friendly Reminder: Invoice ${invoiceNumber} Payment Due`,

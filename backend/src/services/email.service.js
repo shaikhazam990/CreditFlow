@@ -18,12 +18,7 @@ const getTransporter = () => {
   return transporter;
 };
 
-/**
- * Send (or dry-run) a follow-up email and write to EmailLog.
- *
- * @param {object} opts
- * @returns {Promise<EmailLog>}  The persisted log document
- */
+
 const sendFollowUpEmail = async ({
   invoiceId,
   recipientEmail,

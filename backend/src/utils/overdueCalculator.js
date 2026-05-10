@@ -8,12 +8,12 @@
  * Stage 5 → 30+  days    escalate (legal / collections)
  */
 const getStageFromOverdueDays = (days) => {
-  if (days <= 0) return 0;           // not yet overdue
+  if (days <= 0) return 0;           
   if (days <= 7) return 1;
   if (days <= 14) return 2;
   if (days <= 21) return 3;
   if (days <= 30) return 4;
-  return 5;                          // escalate
+  return 5;                 
 };
 
 const STAGE_LABELS = {
@@ -25,10 +25,6 @@ const STAGE_LABELS = {
   5: "escalated",
 };
 
-/**
- * Calculate days overdue from a due date.
- * Returns 0 if not yet due.
- */
 const calcOverdueDays = (dueDate) => {
   const now = new Date();
   const due = new Date(dueDate);

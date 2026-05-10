@@ -2,10 +2,7 @@ const Invoice = require("../model/invoice.model");
 const { calcOverdueDays, getStageFromOverdueDays, STAGE_LABELS } = require("../utils/overdueCalculator");
 const logger = require("../utils/logger");
 
-/**
- * Sync the overdue fields on all non-paid invoices.
- * Called by the cron job and on-demand.
- */
+
 const syncOverdueStatus = async () => {
   const invoices = await Invoice.find({ status: { $nin: ["paid", "cancelled"] } });
   let updatedCount = 0;
@@ -28,9 +25,6 @@ const syncOverdueStatus = async () => {
   return updatedCount;
 };
 
-/**
- * Build the context object passed to AI prompt templates.
- */
 const buildInvoiceContext = (invoice) => ({
   clientName: invoice.clientName,
   invoiceNumber: invoice.invoiceNumber,
@@ -44,9 +38,7 @@ const buildInvoiceContext = (invoice) => ({
     `${process.env.PAYMENT_BASE_URL || "https://pay.example.com"}/${invoice.invoiceNumber}`,
 });
 
-/**
- * Get dashboard summary stats.
- */
+
 const getDashboardStats = async (userId, isAdmin) => {
   const baseFilter = isAdmin ? {} : { createdBy: userId };
 
@@ -56,7 +48,7 @@ const getDashboardStats = async (userId, isAdmin) => {
     Invoice.countDocuments({ ...baseFilter, status: "paid" }),
     Invoice.countDocuments({ ...baseFilter, status: "escalated" }),
     require("../model/emailLog.model").countDocuments(
-      isAdmin ? {} : undefined  // admin sees all logs
+      isAdmin ? {} : undefined  
     ),
   ]);
 
